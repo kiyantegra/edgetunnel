@@ -425,8 +425,8 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-سرورهاس مناسب روز
-      - Original-سرورهای مناسب شب
+      - سرورهاس مناسب روز
+      - سرورهای مناسب شب
   - name: All - LoadBalance(ch)
     type: load-balance
     strategy: consistent-hashing
