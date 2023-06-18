@@ -508,7 +508,6 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - B-Dusseldorf-سرورهاس مناسب روز
       - B-Lille-سرورهاس مناسب روز
       - B-Soul-سرورهاس مناسب روز
       - A-Sslip-سرورهاس مناسب روز
@@ -522,7 +521,6 @@ proxy-groups:
       - A-Lille-سرورهاس مناسب روز
       - B-Sahnama-سرورهاس مناسب روز
       - A-Kansas-سرورهاس مناسب روز
-      - A-Dusseldorf-سرورهاس مناسب روز
   - name: Original-سرورهای مناسب شب
     type: url-test
     url: http://clients3.google.com/generate_204
@@ -535,12 +533,10 @@ proxy-groups:
       - A-Kansas-سرورهای مناسب شب
       - B-Janbaroon-سرورهای مناسب شب
       - A-Amsterdam-سرورهای مناسب شب
-      - B-Dusseldorf-سرورهای مناسب شب
       - A-Sslip-سرورهای مناسب شب
       - B-Sslip-سرورهای مناسب شب
       - A-Soul-سرورهای مناسب شب
       - B-Lille-سرورهای مناسب شب
-      - A-Dusseldorf-سرورهای مناسب شب
       - B-Kansas-سرورهای مناسب شب
       - A-Janbaroon-سرورهای مناسب شب
 rules:
