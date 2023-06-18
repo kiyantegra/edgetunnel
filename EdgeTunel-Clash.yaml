@@ -17,21 +17,6 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: B-Dusseldorf-مناسب روز
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
   - name: A-Janbaroon-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
@@ -77,6 +62,21 @@ proxies:
       path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
       headers:
         host: v2ray.doostankiyan.workers.dev
+  - name: A-Sahnama-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
   - name: B-Sslip-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
@@ -135,21 +135,6 @@ proxies:
     network: ws
     ws-opts:
       path: /Lille.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Dusseldorf-مناسب روز
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Lille-مناسب روز
@@ -257,6 +242,21 @@ proxies:
       path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
       headers:
         host: v2ray.doostankiyan.workers.dev
+  - name: A-Sahnama-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
   - name: A-Soul-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
@@ -317,21 +317,6 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf-مناسب شب
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
   - name: A-Sslip-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
@@ -345,21 +330,6 @@ proxies:
     network: ws
     ws-opts:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Dusseldorf-مناسب شب
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Janbaroon-مناسب شب
@@ -485,15 +455,14 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - B-Dusseldorf-مناسب روز
-      - A-Janbaroon-مناسب روز
       - A-Sslip-مناسب روز
-      - B-Sahnama-مناسب روز
       - B-Sslip-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sahnama-مناسب روز
+      - A-Janbaroon-مناسب روز
       - B-Amsterdam-مناسب روز
       - B-Soul-مناسب روز
       - A-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
       - B-Lille-مناسب روز
       - A-Soul-مناسب روز
       - A-Amsterdam-مناسب روز
@@ -505,20 +474,19 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
+      - A-Sslip-مناسب شب
+      - B-Sslip-مناسب شب
+      - A-Sahnama-مناسب شب
       - B-Sahnama-مناسب شب
       - A-Soul-مناسب شب
       - B-Lille-مناسب شب
       - B-Kansas-مناسب شب
       - A-Kansas-مناسب شب
-      - B-Dusseldorf-مناسب شب
-      - A-Sslip-مناسب شب
-      - A-Dusseldorf-مناسب شب
       - B-Janbaroon-مناسب شب
       - A-Janbaroon-مناسب شب
       - A-Lille-مناسب شب
       - A-Amsterdam-مناسب شب
       - B-Soul-مناسب شب
-      - B-Sslip-مناسب شب
       - B-Amsterdam-مناسب شب
 rules:
   - GEOIP,IR,DIRECT
