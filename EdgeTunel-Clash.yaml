@@ -471,42 +471,38 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-مناسب روز
-      - Original-مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - Fallback
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - LoadBalance(ch)
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - LoadBalance(rr)
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: Original-مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
