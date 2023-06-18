@@ -416,14 +416,14 @@ proxy-groups:
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 3600
+    interval: 60
     proxies:
       - مناسب روز
       - مناسب شب
   - name: مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 3600
+    interval: 60
     proxies:
       - Sslip-مناسب روز
       - Sahnama-مناسب روز
@@ -441,7 +441,7 @@ proxy-groups:
   - name: مناسب شب
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 3600
+    interval: 60
     proxies:
       - Sslip-مناسب شب
       - Sahnama-مناسب شب
