@@ -468,41 +468,6 @@ proxies:
       headers:
         host: v2ray.doostankiyan.workers.dev
 proxy-groups:
-  - name: All
-    type: select
-    proxies:
-      - مناسب روز
-      - مناسب شب
-  - name: All - UrlTest
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - مناسب روز
-      - مناسب شب
-  - name: All - Fallback
-    type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - مناسب روز
-      - مناسب شب
-  - name: All - LoadBalance(ch)
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - مناسب روز
-      - مناسب شب
-  - name: All - LoadBalance(rr)
-    type: load-balance
-    strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - مناسب روز
-      - مناسب شب
   - name: مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
