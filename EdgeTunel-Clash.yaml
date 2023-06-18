@@ -503,7 +503,7 @@ proxy-groups:
     proxies:
       - مناسب روز
       - مناسب شب
-  - name: Original-مناسب روز
+  - name: مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
@@ -523,7 +523,7 @@ proxy-groups:
       - B-Janbaroon-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
-  - name: Original-مناسب شب
+  - name: مناسب شب
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
