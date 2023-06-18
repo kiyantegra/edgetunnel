@@ -32,21 +32,6 @@ proxies:
       path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-مناسب روز
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
   - name: Sslip-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
@@ -60,21 +45,6 @@ proxies:
     network: ws
     ws-opts:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-TLS-مناسب روز
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: best.mortalkombatjh1369533.workers.dev
   - name: Sslip-TLS-مناسب روز
@@ -287,21 +257,6 @@ proxies:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-TLS-مناسب شب
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
   - name: Kansas-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
@@ -330,21 +285,6 @@ proxies:
     network: ws
     ws-opts:
       path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-مناسب شب
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: best.mortalkombatjh1369533.workers.dev
   - name: Kansas-TLS-مناسب شب
@@ -471,51 +411,23 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-مناسب روز
-      - Original-مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 60
     proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
-  - name: All - Fallback
-    type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
-  - name: All - LoadBalance(ch)
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
-  - name: All - LoadBalance(rr)
-    type: load-balance
-    strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-مناسب روز
-      - Original-مناسب شب
-  - name: Original-مناسب روز
+      - مناسب روز
+      - مناسب شب
+  - name: مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 60
     proxies:
-      - Janbaroon-TLS-مناسب روز
-      - Dusseldorf-مناسب روز
       - Sslip-مناسب روز
-      - Dusseldorf-TLS-مناسب روز
+      - Sahnama-مناسب روز
+      - Janbaroon-TLS-مناسب روز
       - Sslip-TLS-مناسب روز
       - Amsterdam-مناسب روز
       - Soul-مناسب روز
@@ -526,21 +438,18 @@ proxy-groups:
       - Lille-مناسب روز
       - Kansas-TLS-مناسب روز
       - Kansas-مناسب روز
-      - Sahnama-مناسب روز
-  - name: Original-مناسب شب
+  - name: مناسب شب
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 60
     proxies:
-      - Soul-مناسب شب
+      - Sslip-مناسب شب
       - Sahnama-مناسب شب
+      - Soul-مناسب شب
       - Sslip-TLS-مناسب شب
-      - Dusseldorf-TLS-مناسب شب
       - Kansas-مناسب شب
       - Amsterdam-TLS-مناسب شب
-      - Dusseldorf-مناسب شب
       - Kansas-TLS-مناسب شب
-      - Sslip-مناسب شب
       - Soul-TLS-مناسب شب
       - Lille-TLS-مناسب شب
       - Janbaroon-TLS-مناسب شب
