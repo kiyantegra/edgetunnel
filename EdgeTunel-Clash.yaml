@@ -411,15 +411,15 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - Original-سرورهاس مناسب روز
-      - Original-سرورهای مناسب شب
+      - سرورهاس مناسب روز
+      - سرورهای مناسب شب
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-سرورهاس مناسب روز
-      - Original-سرورهای مناسب شب
+      - سرورهاس مناسب روز
+      - سرورهای مناسب شب
   - name: All - Fallback
     type: fallback
     url: http://clients3.google.com/generate_204
@@ -433,17 +433,17 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-سرورهاس مناسب روز
-      - Original-سرورهای مناسب شب
+      - سرورهاس مناسب روز
+      - سرورهای مناسب شب
   - name: All - LoadBalance(rr)
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-سرورهاس مناسب روز
-      - Original-سرورهای مناسب شب
-  - name: Original-سرورهاس مناسب روز
+      - سرورهاس مناسب روز
+      - سرورهای مناسب شب
+  - name: سرورهاس مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
@@ -461,7 +461,7 @@ proxy-groups:
       - A-Lille-سرورهاس مناسب روز
       - B-Sahnama-سرورهاس مناسب روز
       - A-Kansas-سرورهاس مناسب روز
-  - name: Original-سرورهای مناسب شب
+  - name: سرورهای مناسب شب
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
