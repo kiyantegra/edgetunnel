@@ -17,22 +17,22 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: Sslip-1
+  - name: Janbaroon-TLS-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
-    port: 80
+    port: 8443
     cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: best.mortalkombatjh1369533.workers.dev
     network: ws
     ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-1
+  - name: Dusseldorf-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -47,7 +47,22 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-TLS-1
+  - name: Sslip-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Dusseldorf-TLS-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 8443
@@ -62,7 +77,7 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Sslip-TLS-1
+  - name: Sslip-TLS-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 8443
@@ -77,7 +92,7 @@ proxies:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Amsterdam-1
+  - name: Amsterdam-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -92,37 +107,67 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Kansas-TLS-1
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Kansas-1
+  - name: Soul-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
     cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
     skip-cert-verify: true
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /Kansas.kotick.site/speedtest
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Soul-TLS-1
+  - name: Janbaroon-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Lille-TLS-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 8443
+    cipher: chacha20-poly1305
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: best.mortalkombatjh1369533.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Amsterdam-TLS-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 8443
+    cipher: chacha20-poly1305
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: best.mortalkombatjh1369533.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Soul-TLS-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 8443
@@ -137,7 +182,52 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Sahnama-1
+  - name: Lille-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Kansas-TLS-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 8443
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: best.mortalkombatjh1369533.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Kansas-مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Sahnama-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -152,39 +242,9 @@ proxies:
       path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Janbaroon-1
+  - name: Soul-مناسب شب
     type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Amsterdam-TLS-1
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Soul-1
-    type: vmess
-    server: kiyan1.ddns.net
+    server: kiyan2.ddns.net
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -197,97 +257,7 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Janbaroon-TLS-1
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Lille-1
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Lille-TLS-1
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Janbaroon-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Amsterdam-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Soul-TLS-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Sahnama-2
+  - name: Sahnama-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -302,7 +272,52 @@ proxies:
       path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Amsterdam-TLS-2
+  - name: Sslip-TLS-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 8443
+    cipher: chacha20-poly1305
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: best.mortalkombatjh1369533.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Dusseldorf-TLS-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 8443
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: best.mortalkombatjh1369533.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Kansas-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Amsterdam-TLS-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 8443
@@ -317,7 +332,37 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Sslip-2
+  - name: Dusseldorf-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Kansas-TLS-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 8443
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: best.mortalkombatjh1369533.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Sslip-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -332,22 +377,37 @@ proxies:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-TLS-2
+  - name: Soul-TLS-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 8443
     cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: true
     skip-cert-verify: true
     servername: best.mortalkombatjh1369533.workers.dev
     network: ws
     ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Janbaroon-TLS-2
+  - name: Lille-TLS-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 8443
+    cipher: chacha20-poly1305
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: best.mortalkombatjh1369533.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Janbaroon-TLS-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 8443
@@ -362,52 +422,7 @@ proxies:
       path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Sslip-TLS-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Lille-TLS-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Dusseldorf-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Soul-2
+  - name: Janbaroon-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -419,40 +434,10 @@ proxies:
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: best.mortalkombatjh1369533.workers.dev
-  - name: Kansas-TLS-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: best.mortalkombatjh1369533.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Kansas-2
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: best.mortalkombatjh1369533.workers.dev
-  - name: Lille-2
+  - name: Lille-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -465,6 +450,21 @@ proxies:
     network: ws
     ws-opts:
       path: /Lille.kotick.site/speedtest
+      headers:
+        host: best.mortalkombatjh1369533.workers.dev
+  - name: Amsterdam-مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
       headers:
         host: best.mortalkombatjh1369533.workers.dev
 proxy-groups:
@@ -475,78 +475,78 @@ proxy-groups:
       - All - Fallback
       - All - LoadBalance(ch)
       - All - LoadBalance(rr)
-      - Original-1
-      - Original-2
+      - Original-مناسب روز
+      - Original-مناسب شب
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-1
-      - Original-2
+      - Original-مناسب روز
+      - Original-مناسب شب
   - name: All - Fallback
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-1
-      - Original-2
+      - Original-مناسب روز
+      - Original-مناسب شب
   - name: All - LoadBalance(ch)
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-1
-      - Original-2
+      - Original-مناسب روز
+      - Original-مناسب شب
   - name: All - LoadBalance(rr)
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-1
-      - Original-2
-  - name: Original-1
+      - Original-مناسب روز
+      - Original-مناسب شب
+  - name: Original-مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Sslip-1
-      - Dusseldorf-1
-      - Dusseldorf-TLS-1
-      - Sslip-TLS-1
-      - Amsterdam-1
-      - Kansas-TLS-1
-      - Kansas-1
-      - Soul-TLS-1
-      - Sahnama-1
-      - Janbaroon-1
-      - Amsterdam-TLS-1
-      - Soul-1
-      - Janbaroon-TLS-1
-      - Lille-1
-      - Lille-TLS-1
-  - name: Original-2
+      - Janbaroon-TLS-مناسب روز
+      - Dusseldorf-مناسب روز
+      - Sslip-مناسب روز
+      - Dusseldorf-TLS-مناسب روز
+      - Sslip-TLS-مناسب روز
+      - Amsterdam-مناسب روز
+      - Soul-مناسب روز
+      - Janbaroon-مناسب روز
+      - Lille-TLS-مناسب روز
+      - Amsterdam-TLS-مناسب روز
+      - Soul-TLS-مناسب روز
+      - Lille-مناسب روز
+      - Kansas-TLS-مناسب روز
+      - Kansas-مناسب روز
+      - Sahnama-مناسب روز
+  - name: Original-مناسب شب
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Janbaroon-2
-      - Amsterdam-2
-      - Soul-TLS-2
-      - Sahnama-2
-      - Amsterdam-TLS-2
-      - Sslip-2
-      - Dusseldorf-TLS-2
-      - Janbaroon-TLS-2
-      - Sslip-TLS-2
-      - Lille-TLS-2
-      - Dusseldorf-2
-      - Soul-2
-      - Kansas-TLS-2
-      - Kansas-2
-      - Lille-2
+      - Soul-مناسب شب
+      - Sahnama-مناسب شب
+      - Sslip-TLS-مناسب شب
+      - Dusseldorf-TLS-مناسب شب
+      - Kansas-مناسب شب
+      - Amsterdam-TLS-مناسب شب
+      - Dusseldorf-مناسب شب
+      - Kansas-TLS-مناسب شب
+      - Sslip-مناسب شب
+      - Soul-TLS-مناسب شب
+      - Lille-TLS-مناسب شب
+      - Janbaroon-TLS-مناسب شب
+      - Janbaroon-مناسب شب
+      - Lille-مناسب شب
+      - Amsterdam-مناسب شب
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
