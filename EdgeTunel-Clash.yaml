@@ -17,7 +17,7 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: B-Lille-سرورهاس مناسب روز
+  - name: B-Lille-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -32,7 +32,7 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Soul-سرورهاس مناسب روز
+  - name: B-Soul-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -47,7 +47,7 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Sslip-سرورهاس مناسب روز
+  - name: A-Sslip-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -62,7 +62,7 @@ proxies:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Janbaroon-سرورهاس مناسب روز
+  - name: B-Janbaroon-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -77,7 +77,7 @@ proxies:
       path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Sslip-سرورهاس مناسب روز
+  - name: B-Sslip-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -92,7 +92,7 @@ proxies:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Kansas-سرورهاس مناسب روز
+  - name: B-Kansas-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -107,7 +107,7 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Amsterdam-سرورهاس مناسب روز
+  - name: B-Amsterdam-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -122,7 +122,7 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Amsterdam-سرورهاس مناسب روز
+  - name: A-Amsterdam-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -137,7 +137,7 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Janbaroon-سرورهاس مناسب روز
+  - name: A-Janbaroon-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -152,7 +152,7 @@ proxies:
       path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Soul-سرورهاس مناسب روز
+  - name: A-Soul-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -167,7 +167,7 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Lille-سرورهاس مناسب روز
+  - name: A-Lille-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -182,7 +182,7 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Sahnama-سرورهاس مناسب روز
+  - name: B-Sahnama-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -197,7 +197,7 @@ proxies:
       path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Kansas-سرورهاس مناسب روز
+  - name: A-Kansas-مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -212,7 +212,7 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Soul-سرورهای مناسب شب
+  - name: B-Soul-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -227,7 +227,7 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Amsterdam-سرورهای مناسب شب
+  - name: B-Amsterdam-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -242,7 +242,7 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Lille-سرورهای مناسب شب
+  - name: A-Lille-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -257,7 +257,7 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Sahnama-سرورهای مناسب شب
+  - name: B-Sahnama-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -272,7 +272,7 @@ proxies:
       path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Kansas-سرورهای مناسب شب
+  - name: A-Kansas-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -287,7 +287,7 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Janbaroon-سرورهای مناسب شب
+  - name: B-Janbaroon-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -302,7 +302,7 @@ proxies:
       path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Amsterdam-سرورهای مناسب شب
+  - name: A-Amsterdam-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -317,7 +317,7 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Sslip-سرورهای مناسب شب
+  - name: A-Sslip-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -332,7 +332,7 @@ proxies:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Sslip-سرورهای مناسب شب
+  - name: B-Sslip-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -347,7 +347,7 @@ proxies:
       path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Soul-سرورهای مناسب شب
+  - name: A-Soul-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -362,7 +362,7 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Lille-سرورهای مناسب شب
+  - name: B-Lille-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -377,7 +377,7 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Kansas-سرورهای مناسب شب
+  - name: B-Kansas-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -392,7 +392,7 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Janbaroon-سرورهای مناسب شب
+  - name: A-Janbaroon-مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
