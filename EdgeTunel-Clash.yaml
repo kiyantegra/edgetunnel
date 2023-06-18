@@ -501,12 +501,12 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - مناسب روز
+      -  مناسب روز
       - مناسب شب
   - name: مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 6000
     proxies:
       - B-Lille-مناسب روز
       - A-Soul-مناسب روز
