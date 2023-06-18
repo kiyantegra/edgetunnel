@@ -411,74 +411,74 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - سرورهاس مناسب روز
-      - سرورهای مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - سرورهاس مناسب روز
-      - سرورهای مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - Fallback
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - سرورهاس مناسب روز
-      - سرورهای مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - LoadBalance(ch)
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - سرورهاس مناسب روز
-      - سرورهای مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - LoadBalance(rr)
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - سرورهاس مناسب روز
-      - سرورهای مناسب شب
-  - name: سرورهاس مناسب روز
+      - مناسب روز
+      - مناسب شب
+  - name: مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - B-Lille-سرورهاس مناسب روز
-      - B-Soul-سرورهاس مناسب روز
-      - A-Sslip-سرورهاس مناسب روز
-      - B-Janbaroon-سرورهاس مناسب روز
-      - B-Sslip-سرورهاس مناسب روز
-      - B-Kansas-سرورهاس مناسب روز
-      - B-Amsterdam-سرورهاس مناسب روز
-      - A-Amsterdam-سرورهاس مناسب روز
-      - A-Janbaroon-سرورهاس مناسب روز
-      - A-Soul-سرورهاس مناسب روز
-      - A-Lille-سرورهاس مناسب روز
-      - B-Sahnama-سرورهاس مناسب روز
-      - A-Kansas-سرورهاس مناسب روز
-  - name: سرورهای مناسب شب
+      - B-Lille-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Janbaroon-مناسب روز
+      - B-Sslip-مناسب روز
+      - B-Kansas-مناسب روز
+      - B-Amsterdam-مناسب روز
+      - A-Amsterdam-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - A-Soul-مناسب روز
+      - A-Lille-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Kansas-مناسب روز
+  - name: مناسب شب
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - B-Soul-سرورهای مناسب شب
-      - B-Amsterdam-سرورهای مناسب شب
-      - A-Lille-سرورهای مناسب شب
-      - B-Sahnama-سرورهای مناسب شب
-      - A-Kansas-سرورهای مناسب شب
-      - B-Janbaroon-سرورهای مناسب شب
-      - A-Amsterdam-سرورهای مناسب شب
-      - A-Sslip-سرورهای مناسب شب
-      - B-Sslip-سرورهای مناسب شب
-      - A-Soul-سرورهای مناسب شب
-      - B-Lille-سرورهای مناسب شب
-      - B-Kansas-سرورهای مناسب شب
-      - A-Janbaroon-سرورهای مناسب شب
+      - B-Soul-مناسب شب
+      - B-Amsterdam-مناسب شب
+      - A-Lille-مناسب شب
+      - B-Sahnama-مناسب شب
+      - A-Kansas-مناسب شب
+      - B-Janbaroon-مناسب شب
+      - A-Amsterdam-مناسب شب
+      - A-Sslip-مناسب شب
+      - B-Sslip-مناسب شب
+      - A-Soul-مناسب شب
+      - B-Lille-مناسب شب
+      - B-Kansas-مناسب شب
+      - A-Janbaroon-مناسب شب
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
