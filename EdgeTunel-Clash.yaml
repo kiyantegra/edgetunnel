@@ -17,21 +17,6 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: B-Dusseldorf-سرورهاس مناسب روز
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
   - name: B-Lille-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
@@ -227,21 +212,6 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Dusseldorf-سرورهاس مناسب روز
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
   - name: B-Soul-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
@@ -347,21 +317,6 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf-سرورهای مناسب شب
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
   - name: A-Sslip-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
@@ -422,21 +377,6 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Dusseldorf-سرورهای مناسب شب
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
   - name: B-Kansas-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
