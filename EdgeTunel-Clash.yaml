@@ -17,157 +17,7 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: A-Janbaroon_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Dusseldorf_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Sahnama-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Kansas_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Amsterdam_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Sslip_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Kansas-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Soul_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Janbaroon-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Amsterdam-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf_1-EdgeTunel
+  - name: B-Dusseldorf-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -182,232 +32,7 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Amsterdam_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Janbaroon-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Sslip-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Kansas_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Soul_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Sslip_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Sslip_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Dusseldorf-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Amsterdam_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Sahnama-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Soul-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Dusseldorf-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Lille_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Soul_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Lille_1-EdgeTunel
+  - name: B-Lille-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -421,38 +46,8 @@ proxies:
     ws-opts:
       path: /Lille.kotick.site/speedtest
       headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Janbaroon_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Sahnama_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Soul_1-EdgeTunel
+  - name: B-Soul-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -467,67 +62,52 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Lille-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Dusseldorf-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Sahnama_1-EdgeTunel
+  - name: A-Sslip-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
     cipher: chacha20-poly1305
-    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
     alterId: 0
     tls: false
     skip-cert-verify: true
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Dusseldorf_1-EdgeTunel
+  - name: B-Janbaroon-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
     cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: v2ray.doostankiyan.workers.dev
     network: ws
     ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Kansas_1-EdgeTunel
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Sslip-سرورهاس مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Kansas-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
     port: 80
@@ -542,29 +122,59 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Soul-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Soul-TLS_1-EdgeTunel
+  - name: B-Amsterdam-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
-    port: 8443
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Amsterdam-سرورهاس مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Janbaroon-سرورهاس مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
-    tls: true
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Soul-سرورهاس مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: false
     skip-cert-verify: true
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
@@ -572,14 +182,29 @@ proxies:
       path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Sahnama-TLS_1-EdgeTunel
+  - name: A-Lille-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
-    port: 8443
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Sahnama-سرورهاس مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
     cipher: chacha20-poly1305
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
     alterId: 0
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: v2ray.doostankiyan.workers.dev
     network: ws
@@ -587,9 +212,114 @@ proxies:
       path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Janbaroon_1-EdgeTunel
+  - name: A-Kansas-سرورهاس مناسب روز
     type: vmess
     server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Dusseldorf-سرورهاس مناسب روز
+    type: vmess
+    server: kiyan1.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Soul-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Amsterdam-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Lille-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Sahnama-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Kansas-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Janbaroon-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -602,189 +332,9 @@ proxies:
       path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Sslip-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Sslip_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Lille_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Kansas-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Soul-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Sahnama_2-EdgeTunel
+  - name: A-Amsterdam-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Lille-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Lille_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 80
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Kansas-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Amsterdam-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Sslip-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Lille-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Amsterdam_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
     port: 80
     cipher: chacha20-poly1305
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -797,14 +347,14 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf-TLS_2-EdgeTunel
+  - name: B-Dusseldorf-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
-    port: 8443
+    port: 80
     cipher: chacha20-poly1305
     uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
     alterId: 0
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: v2ray.doostankiyan.workers.dev
     network: ws
@@ -812,24 +362,39 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Kansas-TLS_1-EdgeTunel
+  - name: A-Sslip-سرورهای مناسب شب
     type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
+    server: kiyan2.ddns.net
+    port: 80
     cipher: chacha20-poly1305
-    uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
     alterId: 0
-    tls: true
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Sslip-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: false
     skip-cert-verify: true
     servername: v2ray.doostankiyan.workers.dev
     network: ws
     ws-opts:
-      path: /Kansas.kotick.site/speedtest
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Janbaroon_1-EdgeTunel
+  - name: A-Soul-سرورهای مناسب شب
     type: vmess
-    server: kiyan1.ddns.net
+    server: kiyan2.ddns.net
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -839,40 +404,25 @@ proxies:
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Amsterdam-TLS_2-EdgeTunel
+  - name: B-Lille-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
-    port: 8443
+    port: 80
     cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
     alterId: 0
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Sahnama-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: A-Kansas_2-EdgeTunel
+  - name: A-Dusseldorf-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
@@ -884,99 +434,39 @@ proxies:
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /Kansas.kotick.site/speedtest
+      path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Janbaroon-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Amsterdam-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Lille-TLS_1-EdgeTunel
-    type: vmess
-    server: kiyan1.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Janbaroon-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Sahnama_2-EdgeTunel
+  - name: B-Kansas-سرورهای مناسب شب
     type: vmess
     server: kiyan2.ddns.net
     port: 80
     cipher: chacha20-poly1305
-    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
     alterId: 0
     tls: false
     skip-cert-verify: true
     servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Sslip-TLS_2-EdgeTunel
-    type: vmess
-    server: kiyan2.ddns.net
-    port: 8443
-    cipher: chacha20-poly1305
-    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      path: /Kansas.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
+  - name: A-Janbaroon-سرورهای مناسب شب
+    type: vmess
+    server: kiyan2.ddns.net
+    port: 80
+    cipher: chacha20-poly1305
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
 proxy-groups:
   - name: All
     type: select
@@ -985,102 +475,78 @@ proxy-groups:
       - All - Fallback
       - All - LoadBalance(ch)
       - All - LoadBalance(rr)
-      - Original-EdgeTunel
+      - Original-سرورهاس مناسب روز
+      - Original-سرورهای مناسب شب
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-EdgeTunel
+      - Original-سرورهاس مناسب روز
+      - Original-سرورهای مناسب شب
   - name: All - Fallback
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-EdgeTunel
+      - Original-سرورهاس مناسب روز
+      - Original-سرورهای مناسب شب
   - name: All - LoadBalance(ch)
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-EdgeTunel
+      - Original-سرورهاس مناسب روز
+      - Original-سرورهای مناسب شب
   - name: All - LoadBalance(rr)
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - Original-EdgeTunel
-  - name: Original-EdgeTunel
+      - Original-سرورهاس مناسب روز
+      - Original-سرورهای مناسب شب
+  - name: Original-سرورهاس مناسب روز
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 600
     proxies:
-      - A-Janbaroon_2-EdgeTunel
-      - A-Dusseldorf_2-EdgeTunel
-      - A-Sahnama-TLS_2-EdgeTunel
-      - B-Kansas_2-EdgeTunel
-      - B-Amsterdam_2-EdgeTunel
-      - A-Sslip_2-EdgeTunel
-      - A-Kansas-TLS_2-EdgeTunel
-      - B-Soul_2-EdgeTunel
-      - B-Janbaroon-TLS_1-EdgeTunel
-      - A-Amsterdam-TLS_1-EdgeTunel
-      - B-Dusseldorf_1-EdgeTunel
-      - A-Amsterdam_2-EdgeTunel
-      - A-Janbaroon-TLS_2-EdgeTunel
-      - A-Sslip-TLS_1-EdgeTunel
-      - A-Kansas_1-EdgeTunel
-      - A-Soul_1-EdgeTunel
-      - B-Dusseldorf_2-EdgeTunel
-      - B-Sslip_2-EdgeTunel
-      - B-Sslip_1-EdgeTunel
-      - A-Dusseldorf-TLS_1-EdgeTunel
-      - B-Amsterdam_1-EdgeTunel
-      - A-Sahnama-TLS_1-EdgeTunel
-      - A-Soul-TLS_2-EdgeTunel
-      - A-Dusseldorf-TLS_2-EdgeTunel
-      - A-Lille_2-EdgeTunel
-      - A-Soul_2-EdgeTunel
-      - A-Lille_1-EdgeTunel
-      - B-Janbaroon_2-EdgeTunel
-      - B-Sahnama_1-EdgeTunel
-      - B-Soul_1-EdgeTunel
-      - B-Lille-TLS_2-EdgeTunel
-      - B-Dusseldorf-TLS_1-EdgeTunel
-      - A-Sahnama_1-EdgeTunel
-      - A-Dusseldorf_1-EdgeTunel
-      - B-Kansas_1-EdgeTunel
-      - B-Soul-TLS_2-EdgeTunel
-      - A-Soul-TLS_1-EdgeTunel
-      - B-Sahnama-TLS_1-EdgeTunel
-      - B-Janbaroon_1-EdgeTunel
-      - B-Sslip-TLS_1-EdgeTunel
-      - A-Sslip_1-EdgeTunel
-      - B-Lille_1-EdgeTunel
-      - A-Kansas-TLS_1-EdgeTunel
-      - B-Soul-TLS_1-EdgeTunel
-      - B-Sahnama_2-EdgeTunel
-      - A-Lille-TLS_1-EdgeTunel
-      - B-Lille_2-EdgeTunel
-      - B-Kansas-TLS_2-EdgeTunel
-      - B-Amsterdam-TLS_2-EdgeTunel
-      - A-Sslip-TLS_2-EdgeTunel
-      - A-Lille-TLS_2-EdgeTunel
-      - A-Amsterdam_1-EdgeTunel
-      - B-Dusseldorf-TLS_2-EdgeTunel
-      - B-Kansas-TLS_1-EdgeTunel
-      - A-Janbaroon_1-EdgeTunel
-      - A-Amsterdam-TLS_2-EdgeTunel
-      - B-Sahnama-TLS_2-EdgeTunel
-      - A-Kansas_2-EdgeTunel
-      - A-Janbaroon-TLS_1-EdgeTunel
-      - B-Amsterdam-TLS_1-EdgeTunel
-      - B-Lille-TLS_1-EdgeTunel
-      - B-Janbaroon-TLS_2-EdgeTunel
-      - A-Sahnama_2-EdgeTunel
-      - B-Sslip-TLS_2-EdgeTunel
+      - B-Dusseldorf-سرورهاس مناسب روز
+      - B-Lille-سرورهاس مناسب روز
+      - B-Soul-سرورهاس مناسب روز
+      - A-Sslip-سرورهاس مناسب روز
+      - B-Janbaroon-سرورهاس مناسب روز
+      - B-Sslip-سرورهاس مناسب روز
+      - B-Kansas-سرورهاس مناسب روز
+      - B-Amsterdam-سرورهاس مناسب روز
+      - A-Amsterdam-سرورهاس مناسب روز
+      - A-Janbaroon-سرورهاس مناسب روز
+      - A-Soul-سرورهاس مناسب روز
+      - A-Lille-سرورهاس مناسب روز
+      - B-Sahnama-سرورهاس مناسب روز
+      - A-Kansas-سرورهاس مناسب روز
+      - A-Dusseldorf-سرورهاس مناسب روز
+  - name: Original-سرورهای مناسب شب
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 600
+    proxies:
+      - B-Soul-سرورهای مناسب شب
+      - B-Amsterdam-سرورهای مناسب شب
+      - A-Lille-سرورهای مناسب شب
+      - B-Sahnama-سرورهای مناسب شب
+      - A-Kansas-سرورهای مناسب شب
+      - B-Janbaroon-سرورهای مناسب شب
+      - A-Amsterdam-سرورهای مناسب شب
+      - B-Dusseldorf-سرورهای مناسب شب
+      - A-Sslip-سرورهای مناسب شب
+      - B-Sslip-سرورهای مناسب شب
+      - A-Soul-سرورهای مناسب شب
+      - B-Lille-سرورهای مناسب شب
+      - A-Dusseldorf-سرورهای مناسب شب
+      - B-Kansas-سرورهای مناسب شب
+      - A-Janbaroon-سرورهای مناسب شب
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
