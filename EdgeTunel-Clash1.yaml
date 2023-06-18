@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：18-06-2023 04:15:21
+# 创建时间：18-06-2023 12:48:17
 # 使用模版：V2RaySE 默认模版
-# 节点数量：15
+# 节点数量：16
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,6 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
+  - {"name":"A-Sahnama","type":"vmess","server":"kiyan1.ddns.net","port":80,"cipher":"chacha20-poly1305","uuid":"3bcbd5cd-e791-4770-8bc7-7b1d941c9513","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
   - {"name":"B-Sahnama","type":"vmess","server":"kiyan1.ddns.net","port":80,"cipher":"chacha20-poly1305","uuid":"3bcbd5cd-e791-4770-8bc7-7b1d941c9513","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
   - {"name":"A-Sslip","type":"vmess","server":"kiyan1.ddns.net","port":80,"cipher":"chacha20-poly1305","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
   - {"name":"B-Sslip","type":"vmess","server":"kiyan1.ddns.net","port":80,"cipher":"chacha20-poly1305","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
@@ -42,6 +43,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - A-Sahnama
       - B-Sahnama
       - A-Sslip
       - B-Sslip
@@ -63,6 +65,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - A-Sahnama
       - B-Sahnama
       - A-Sslip
       - B-Sslip
@@ -84,6 +87,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - A-Sahnama
       - B-Sahnama
       - A-Sslip
       - B-Sslip
@@ -104,6 +108,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - A-Sahnama
       - B-Sahnama
       - A-Sslip
       - B-Sslip
@@ -124,6 +129,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - A-Sahnama
       - B-Sahnama
       - A-Sslip
       - B-Sslip
@@ -144,6 +150,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - A-Sahnama
       - B-Sahnama
       - A-Sslip
       - B-Sslip
@@ -181,6 +188,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - A-Sahnama
       - B-Sahnama
       - A-Sslip
       - B-Sslip
