@@ -471,12 +471,8 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-مناسب روز
-      - Original-مناسب شب
+      - مناسب روز
+      - مناسب شب
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
