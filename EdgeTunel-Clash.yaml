@@ -471,10 +471,6 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
       - Original-سرورهاس مناسب روز
       - Original-سرورهای مناسب شب
   - name: All - UrlTest
