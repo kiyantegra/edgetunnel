@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: A-Janbaroon-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -34,7 +34,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Sslip-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -49,7 +49,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Sahnama-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -64,7 +64,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Sahnama-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -79,7 +79,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Sslip-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -94,7 +94,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Amsterdam-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -109,7 +109,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Soul-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -124,7 +124,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Lille-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -139,7 +139,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Lille-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -154,7 +154,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Soul-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -169,7 +169,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Amsterdam-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -184,7 +184,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Janbaroon-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -199,7 +199,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Kansas-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
@@ -214,7 +214,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Kansas-مناسب روز
     type: vmess
-    server: kiyan1.ddns.net
+    server: 50.7.85.219
     port: 80
     cipher: chacha20-poly1305
     uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
@@ -229,7 +229,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Sahnama-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -244,7 +244,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Sahnama-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -259,7 +259,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Soul-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -274,7 +274,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Lille-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -289,7 +289,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Kansas-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
@@ -304,7 +304,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Kansas-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
@@ -319,7 +319,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Sslip-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -334,7 +334,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Janbaroon-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -349,7 +349,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Janbaroon-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -364,7 +364,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Lille-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -379,7 +379,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Amsterdam-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -394,7 +394,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Soul-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -409,7 +409,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Sslip-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -424,7 +424,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Amsterdam-مناسب شب
     type: vmess
-    server: kiyan2.ddns.net
+    server: 23.227.60.184
     port: 80
     cipher: chacha20-poly1305
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
