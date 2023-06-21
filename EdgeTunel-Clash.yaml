@@ -21,7 +21,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -36,7 +36,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
     alterId: 0
     tls: false
@@ -51,7 +51,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
     alterId: 0
     tls: false
@@ -66,7 +66,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
     alterId: 0
     tls: false
@@ -81,7 +81,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
     alterId: 0
     tls: false
@@ -96,7 +96,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
@@ -111,7 +111,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -126,7 +126,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
     alterId: 0
     tls: false
@@ -141,7 +141,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
     alterId: 0
     tls: false
@@ -156,7 +156,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -171,7 +171,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
@@ -186,7 +186,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -201,7 +201,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
     alterId: 0
     tls: false
@@ -216,7 +216,7 @@ proxies:
     type: vmess
     server: 50.7.85.219
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
     alterId: 0
     tls: false
@@ -231,7 +231,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
     alterId: 0
     tls: false
@@ -246,7 +246,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
     alterId: 0
     tls: false
@@ -261,7 +261,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -276,7 +276,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
     alterId: 0
     tls: false
@@ -291,7 +291,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 23E43A5F-8486-4D80-B74F-D35EAED993A9
     alterId: 0
     tls: false
@@ -306,7 +306,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 9DB2C9E0-53D4-4B21-86F0-87D1E453115C
     alterId: 0
     tls: false
@@ -321,7 +321,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
     alterId: 0
     tls: false
@@ -336,7 +336,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -351,7 +351,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -366,7 +366,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
     alterId: 0
     tls: false
@@ -381,7 +381,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
@@ -396,7 +396,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
     alterId: 0
     tls: false
@@ -411,7 +411,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
     alterId: 0
     tls: false
@@ -426,7 +426,7 @@ proxies:
     type: vmess
     server: 23.227.60.184
     port: 80
-    cipher: chacha20-poly1305
+    cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
