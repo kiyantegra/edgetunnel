@@ -498,7 +498,19 @@ proxies:
       headers:
         host: mci.kiyandoostan1245.workers.dev
 proxy-groups:
-  - name: Original-روز
+  - name: All
+    type: select
+    proxies:
+      - روز
+      - شب
+  - name: All - UrlTest
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 60
+    proxies:
+      - روز
+      - شب
+  - name: روز
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 60
@@ -519,7 +531,7 @@ proxy-groups:
       - B-Soul-مناسب روز-روز
       - A-Janbaroon-مناسب روز-روز
       - B-Janbaroon-مناسب روز-روز
-  - name: Original-شب
+  - name: شب
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 60
