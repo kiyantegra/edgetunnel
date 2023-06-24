@@ -509,9 +509,6 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 60
     proxies:
-      - Original-روز
-      - Original-شب
-    proxies:
       - A-Amsterdam-مناسب روز-روز
       - B-Amsterdam-مناسب روز-روز
       - A-Dusseldorf-مناسب روز-روز
