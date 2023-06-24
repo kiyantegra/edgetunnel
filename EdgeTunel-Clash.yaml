@@ -139,7 +139,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Dusseldorf-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -154,7 +154,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Soul-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -169,7 +169,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Lille-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -184,7 +184,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Janbaroon-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -199,7 +199,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Dusseldorf-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -214,7 +214,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Sahnama-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -229,7 +229,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Sahnama-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -244,7 +244,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Kansas-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 00E3848D-E68B-4536-A063-13D171026824
@@ -259,7 +259,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Sahnama-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -274,7 +274,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Kansas-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 00E3848D-E68B-4536-A063-13D171026824
@@ -289,7 +289,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Soul-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -304,7 +304,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Sslip-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -319,7 +319,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Dusseldorf-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -334,7 +334,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Lille-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -349,7 +349,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Sslip-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -364,7 +364,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Dusseldorf-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -379,7 +379,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Lille-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -394,7 +394,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Soul-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -409,7 +409,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Amsterdam-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -424,7 +424,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Sahnama-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
@@ -439,7 +439,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Amsterdam-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -454,7 +454,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Janbaroon-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -469,7 +469,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Kansas-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 00E3848D-E68B-4536-A063-13D171026824
@@ -484,7 +484,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Janbaroon-مناسب شب-شب
     type: vmess
-    server: '::ffff:17e3:3cb8'
+    server: ::ffff:17e3:3cb8
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
