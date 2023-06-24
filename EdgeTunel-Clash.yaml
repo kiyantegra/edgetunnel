@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: B-Janbaroon-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -34,7 +34,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Lille-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: CF28467E-77BA-4564-B161-464CA27F839A
@@ -49,7 +49,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Sslip-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -64,7 +64,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Amsterdam-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -79,7 +79,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Sslip-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
@@ -94,7 +94,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Amsterdam-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -109,7 +109,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Soul-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
@@ -124,7 +124,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Kansas-مناسب روز-روز
     type: vmess
-    server: '::ffff:3207:55db'
+    server: ::ffff:3207:55db
     port: 80
     cipher: auto
     uuid: 00E3848D-E68B-4536-A063-13D171026824
@@ -498,87 +498,48 @@ proxies:
       headers:
         host: mci.kiyandoostan1245.workers.dev
 proxy-groups:
-  - name: All
-    type: select
-    proxies:
-      - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-روز
-      - Original-شب
-  - name: All - UrlTest
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-روز
-      - Original-شب
-  - name: All - Fallback
-    type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-روز
-      - Original-شب
-  - name: All - LoadBalance(ch)
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-روز
-      - Original-شب
-  - name: All - LoadBalance(rr)
-    type: load-balance
-    strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-روز
-      - Original-شب
   - name: Original-روز
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 60
     proxies:
-      - B-Janbaroon-مناسب روز-روز
-      - B-Lille-مناسب روز-روز
-      - B-Sslip-مناسب روز-روز
       - A-Amsterdam-مناسب روز-روز
-      - A-Sslip-مناسب روز-روز
       - B-Amsterdam-مناسب روز-روز
-      - B-Soul-مناسب روز-روز
-      - B-Kansas-مناسب روز-روز
-      - B-Dusseldorf-مناسب روز-روز
-      - A-Soul-مناسب روز-روز
-      - A-Lille-مناسب روز-روز
-      - A-Janbaroon-مناسب روز-روز
       - A-Dusseldorf-مناسب روز-روز
+      - B-Dusseldorf-مناسب روز-روز
+      - A-Lille-مناسب روز-روز
+      - B-Lille-مناسب روز-روز
+      - A-Kansas-مناسب روز-روز
+      - B-Kansas-مناسب روز-روز
       - A-Sahnama-مناسب روز-روز
       - B-Sahnama-مناسب روز-روز
-      - A-Kansas-مناسب روز-روز
+      - A-Sslip-مناسب روز-روز
+      - B-Sslip-مناسب روز-روز
+      - A-Soul-مناسب روز-روز
+      - B-Soul-مناسب روز-روز
+      - A-Janbaroon-مناسب روز-روز
+      - B-Janbaroon-مناسب روز-روز
   - name: Original-شب
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 60
     proxies:
-      - B-Sahnama-مناسب شب-شب
-      - B-Kansas-مناسب شب-شب
-      - B-Soul-مناسب شب-شب
-      - A-Sslip-مناسب شب-شب
-      - A-Dusseldorf-مناسب شب-شب
-      - A-Lille-مناسب شب-شب
-      - B-Sslip-مناسب شب-شب
-      - B-Dusseldorf-مناسب شب-شب
-      - B-Lille-مناسب شب-شب
-      - A-Soul-مناسب شب-شب
-      - B-Amsterdam-مناسب شب-شب
-      - A-Sahnama-مناسب شب-شب
       - A-Amsterdam-مناسب شب-شب
-      - B-Janbaroon-مناسب شب-شب
+      - B-Amsterdam-مناسب شب-شب
+      - A-Dusseldorf-مناسب شب-شب
+      - B-Dusseldorf-مناسب شب-شب
+      - A-Lille-مناسب شب-شب
+      - B-Lille-مناسب شب-شب
       - A-Kansas-مناسب شب-شب
+      - B-Kansas-مناسب شب-شب
+      - A-Sahnama-مناسب شب-شب
+      - B-Sahnama-مناسب شب-شب
+      - A-Sslip-مناسب شب-شب
+      - B-Sslip-مناسب شب-شب
+      - A-Soul-مناسب شب-شب
+      - B-Soul-مناسب شب-شب
       - A-Janbaroon-مناسب شب-شب
+      - B-Janbaroon-مناسب شب-شب
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
