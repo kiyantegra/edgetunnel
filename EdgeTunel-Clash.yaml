@@ -527,7 +527,7 @@ proxy-groups:
       - A-Soul-مناسب روز-روز
       - B-Soul-مناسب روز-روز
       - A-Janbaroon-مناسب روز-روز
-       - B-Janbaroon-مناسب روز-روز
+      - B-Janbaroon-مناسب روز-روز
   - name: Original-شب
     type: url-test
     url: http://clients3.google.com/generate_204
