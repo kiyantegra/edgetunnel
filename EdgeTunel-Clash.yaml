@@ -498,6 +498,26 @@ proxies:
       headers:
         host: mci.kiyandoostan1245.workers.dev
 proxy-groups:
+  - name: All
+    type: select
+    proxies:
+      - All - UrlTest
+      - Original-روز
+      - Original-شب
+  - name: All - UrlTest
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 600
+    proxies:
+      - Original-روز
+      - Original-شب
+  - name: All - Fallback
+    type: fallback
+    url: http://clients3.google.com/generate_204
+    interval: 600
+    proxies:
+      - Original-روز
+      - Original-شب
   - name: Original-روز
     type: url-test
     url: http://clients3.google.com/generate_204
