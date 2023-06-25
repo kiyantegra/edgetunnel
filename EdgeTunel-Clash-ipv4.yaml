@@ -1,0 +1,558 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  nameserver:
+    - 114.114.114.114
+    - 223.5.5.5
+    - 8.8.8.8
+    - 9.9.9.9
+    - 1.1.1.1
+    - https://dns.google/dns-query
+    - tls://dns.google:853
+proxies:
+  - name: A-Sahnama-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Dusseldorf-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Sslip-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Sslip-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Kansas-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Janbaroon-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Soul-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Janbaroon-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Sahnama-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Kansas-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Amsterdam-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Amsterdam-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Lille-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Lille-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Soul-مناسب روز-روز
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Soul-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Lille-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Lille-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Sslip-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Dusseldorf-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Sahnama-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Kansas-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Sahnama-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Soul-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /soul.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Amsterdam-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Janbaroon-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Sslip-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Amsterdam-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Janbaroon-مناسب شب-شب
+    type: vmess
+    server: 23.227.60.184
+    port: 8443
+    cipher: auto
+    uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+proxy-groups:
+  - name: All
+    type: select
+    proxies:
+      - روز
+      - شب
+  - name: All - UrlTest
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 60
+    proxies:
+      - روز
+      - شب
+  - name: روز
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 60
+    proxies:
+      - A-Amsterdam-مناسب روز-روز
+      - B-Amsterdam-مناسب روز-روز
+      - A-Dusseldorf-مناسب روز-روز
+      - B-Dusseldorf-مناسب روز-روز
+      - A-Lille-مناسب روز-روز
+      - B-Lille-مناسب روز-روز
+      - A-Kansas-مناسب روز-روز
+      - B-Kansas-مناسب روز-روز
+      - A-Sahnama-مناسب روز-روز
+      - B-Sahnama-مناسب روز-روز
+      - A-Sslip-مناسب روز-روز
+      - B-Sslip-مناسب روز-روز
+      - A-Soul-مناسب روز-روز
+      - B-Soul-مناسب روز-روز
+      - A-Janbaroon-مناسب روز-روز
+      - B-Janbaroon-مناسب روز-روز
+  - name: شب
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 60
+    proxies:
+      - A-Amsterdam-مناسب شب-شب
+      - B-Amsterdam-مناسب شب-شب
+      - A-Dusseldorf-مناسب شب-شب
+      - B-Dusseldorf-مناسب شب-شب
+      - A-Lille-مناسب شب-شب
+      - B-Lille-مناسب شب-شب
+      - A-Kansas-مناسب شب-شب
+      - B-Kansas-مناسب شب-شب
+      - A-Sahnama-مناسب شب-شب
+      - B-Sahnama-مناسب شب-شب
+      - A-Sslip-مناسب شب-شب
+      - B-Sslip-مناسب شب-شب
+      - A-Soul-مناسب شب-شب
+      - B-Soul-مناسب شب-شب
+      - A-Janbaroon-مناسب شب-شب
+      - B-Janbaroon-مناسب شب-شب
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,ir,DIRECT
+  - MATCH,All
