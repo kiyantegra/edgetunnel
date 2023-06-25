@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：25-06-2023 00:02:49
+# 创建时间：26-06-2023 01:30:15
 # 使用模版：V2RaySE 默认模版
 # 节点数量：16
 ####################################
@@ -21,151 +21,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"A-Sslip-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Sslip-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Sahnama-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"3bcbd5cd-e791-4770-8bc7-7b1d941c9513","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Sahnama-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"3bcbd5cd-e791-4770-8bc7-7b1d941c9513","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Soul-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/soul.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Soul-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/soul.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Janbaroon-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Janbaroon-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Amsterdam-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Amsterdam-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"A-Kansas-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"00E3848D-E68B-4536-A063-13D171026824","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Kansas-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"00E3848D-E68B-4536-A063-13D171026824","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Lille-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Lille-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Dusseldorf-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Dusseldorf-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":80,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Amsterdam-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Amsterdam-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Dusseldorf-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Dusseldorf-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Kansas-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"00E3848D-E68B-4536-A063-13D171026824","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Kansas-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"00E3848D-E68B-4536-A063-13D171026824","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Lille-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Lille-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"CF28467E-77BA-4564-B161-464CA27F839A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Sahnama-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"3bcbd5cd-e791-4770-8bc7-7b1d941c9513","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Sahnama-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"3bcbd5cd-e791-4770-8bc7-7b1d941c9513","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/sahnama.com/S4PSg9xqUClN2kJ4SOPKqC6","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Sslip-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Sslip-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/209.38.196.78.sslip.io/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Soul-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/soul.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Soul-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/soul.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-Janbaroon-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Janbaroon-مناسب روز","type":"vmess","server":"::ffff:3207:55db","port":8443,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/lS74ylCO.janbaroon.com/P6kpn5UKG40MNLK2","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - A-Sslip-مناسب روز
-      - B-Sslip-مناسب روز
-      - A-Sahnama-مناسب روز
-      - B-Sahnama-مناسب روز
-      - A-Soul-مناسب روز
-      - B-Soul-مناسب روز
-      - A-Janbaroon-مناسب روز
-      - B-Janbaroon-مناسب روز
       - A-Amsterdam-مناسب روز
       - B-Amsterdam-مناسب روز
+      - A-Dusseldorf-مناسب روز
+      - B-Dusseldorf-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
       - A-Lille-مناسب روز
       - B-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
+      - A-Sahnama-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Sslip-مناسب روز
+      - A-Soul-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - B-Janbaroon-مناسب روز
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - A-Sslip-مناسب روز
-      - B-Sslip-مناسب روز
-      - A-Sahnama-مناسب روز
-      - B-Sahnama-مناسب روز
-      - A-Soul-مناسب روز
-      - B-Soul-مناسب روز
-      - A-Janbaroon-مناسب روز
-      - B-Janbaroon-مناسب روز
       - A-Amsterdam-مناسب روز
       - B-Amsterdam-مناسب روز
+      - A-Dusseldorf-مناسب روز
+      - B-Dusseldorf-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
       - A-Lille-مناسب روز
       - B-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
+      - A-Sahnama-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Sslip-مناسب روز
+      - A-Soul-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - B-Janbaroon-مناسب روز
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - A-Sslip-مناسب روز
-      - B-Sslip-مناسب روز
-      - A-Sahnama-مناسب روز
-      - B-Sahnama-مناسب روز
-      - A-Soul-مناسب روز
-      - B-Soul-مناسب روز
-      - A-Janbaroon-مناسب روز
-      - B-Janbaroon-مناسب روز
       - A-Amsterdam-مناسب روز
       - B-Amsterdam-مناسب روز
+      - A-Dusseldorf-مناسب روز
+      - B-Dusseldorf-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
       - A-Lille-مناسب روز
       - B-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
+      - A-Sahnama-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Sslip-مناسب روز
+      - A-Soul-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - B-Janbaroon-مناسب روز
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-Sslip-مناسب روز
-      - B-Sslip-مناسب روز
-      - A-Sahnama-مناسب روز
-      - B-Sahnama-مناسب روز
-      - A-Soul-مناسب روز
-      - B-Soul-مناسب روز
-      - A-Janbaroon-مناسب روز
-      - B-Janbaroon-مناسب روز
       - A-Amsterdam-مناسب روز
       - B-Amsterdam-مناسب روز
+      - A-Dusseldorf-مناسب روز
+      - B-Dusseldorf-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
       - A-Lille-مناسب روز
       - B-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
+      - A-Sahnama-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Sslip-مناسب روز
+      - A-Soul-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - B-Janbaroon-مناسب روز
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - A-Sslip-مناسب روز
-      - B-Sslip-مناسب روز
-      - A-Sahnama-مناسب روز
-      - B-Sahnama-مناسب روز
-      - A-Soul-مناسب روز
-      - B-Soul-مناسب روز
-      - A-Janbaroon-مناسب روز
-      - B-Janbaroon-مناسب روز
       - A-Amsterdam-مناسب روز
       - B-Amsterdam-مناسب روز
+      - A-Dusseldorf-مناسب روز
+      - B-Dusseldorf-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
       - A-Lille-مناسب روز
       - B-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
+      - A-Sahnama-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Sslip-مناسب روز
+      - A-Soul-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - B-Janbaroon-مناسب روز
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-Sslip-مناسب روز
-      - B-Sslip-مناسب روز
-      - A-Sahnama-مناسب روز
-      - B-Sahnama-مناسب روز
-      - A-Soul-مناسب روز
-      - B-Soul-مناسب روز
-      - A-Janbaroon-مناسب روز
-      - B-Janbaroon-مناسب روز
       - A-Amsterdam-مناسب روز
       - B-Amsterdam-مناسب روز
+      - A-Dusseldorf-مناسب روز
+      - B-Dusseldorf-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
       - A-Lille-مناسب روز
       - B-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
+      - A-Sahnama-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Sslip-مناسب روز
+      - A-Soul-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - B-Janbaroon-مناسب روز
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,22 +188,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - A-Sslip-مناسب روز
-      - B-Sslip-مناسب روز
-      - A-Sahnama-مناسب روز
-      - B-Sahnama-مناسب روز
-      - A-Soul-مناسب روز
-      - B-Soul-مناسب روز
-      - A-Janbaroon-مناسب روز
-      - B-Janbaroon-مناسب روز
       - A-Amsterdam-مناسب روز
       - B-Amsterdam-مناسب روز
+      - A-Dusseldorf-مناسب روز
+      - B-Dusseldorf-مناسب روز
       - A-Kansas-مناسب روز
       - B-Kansas-مناسب روز
       - A-Lille-مناسب روز
       - B-Lille-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
+      - A-Sahnama-مناسب روز
+      - B-Sahnama-مناسب روز
+      - A-Sslip-مناسب روز
+      - B-Sslip-مناسب روز
+      - A-Soul-مناسب روز
+      - B-Soul-مناسب روز
+      - A-Janbaroon-مناسب روز
+      - B-Janbaroon-مناسب روز
 
 rules:
 # 本地/局域网地址
