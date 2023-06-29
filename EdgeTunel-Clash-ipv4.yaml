@@ -37,7 +37,7 @@ proxies:
     server: 50.7.85.219
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -82,7 +82,7 @@ proxies:
     server: 50.7.85.219
     port: 8443
     cipher: auto
-    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    uuid: 3A818BED-E133-4C92-8721-8F761305632F
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -112,7 +112,7 @@ proxies:
     server: 50.7.85.219
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -172,7 +172,7 @@ proxies:
     server: 50.7.85.219
     port: 8443
     cipher: auto
-    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    uuid: 3A818BED-E133-4C92-8721-8F761305632F
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -217,7 +217,7 @@ proxies:
     server: 50.7.85.219
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EE4CAA26-4EDC-4F22-9D21-74B996AB2307
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -232,7 +232,7 @@ proxies:
     server: 50.7.85.219
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EE4CAA26-4EDC-4F22-9D21-74B996AB2307
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -277,7 +277,7 @@ proxies:
     server: 23.227.60.184
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EE4CAA26-4EDC-4F22-9D21-74B996AB2307
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -292,7 +292,7 @@ proxies:
     server: 23.227.60.184
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EE4CAA26-4EDC-4F22-9D21-74B996AB2307
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -322,7 +322,7 @@ proxies:
     server: 23.227.60.184
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -337,7 +337,7 @@ proxies:
     server: 23.227.60.184
     port: 8443
     cipher: auto
-    uuid: CF28467E-77BA-4564-B161-464CA27F839A
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -352,7 +352,7 @@ proxies:
     server: 23.227.60.184
     port: 8443
     cipher: auto
-    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    uuid: 3A818BED-E133-4C92-8721-8F761305632F
     alterId: 0
     tls: true
     skip-cert-verify: true
@@ -382,7 +382,7 @@ proxies:
     server: 23.227.60.184
     port: 8443
     cipher: auto
-    uuid: 00E3848D-E68B-4536-A063-13D171026824
+    uuid: 3A818BED-E133-4C92-8721-8F761305632F
     alterId: 0
     tls: true
     skip-cert-verify: true
