@@ -506,14 +506,14 @@ proxy-groups:
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 60
+    interval: 10
     proxies:
       - روز
       - شب
   - name: روز
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 60
+    interval: 10
     proxies:
       - A-Amsterdam-مناسب روز-روز
       - B-Amsterdam-مناسب روز-روز
@@ -534,7 +534,7 @@ proxy-groups:
   - name: شب
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 60
+    interval: 10
     proxies:
       - A-Amsterdam-مناسب شب-شب
       - B-Amsterdam-مناسب شب-شب
