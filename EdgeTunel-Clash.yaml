@@ -138,10 +138,6 @@ proxies:
       headers:
         host: mci.kiyandoostan1245.workers.dev
 proxy-groups:
-  - name: All
-    type: select
-    proxies:
-      - All - UrlTest
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
