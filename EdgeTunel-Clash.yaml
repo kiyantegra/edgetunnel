@@ -142,40 +142,16 @@ proxy-groups:
     type: select
     proxies:
       - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-1
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-1
-  - name: All - Fallback
-    type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-1
-  - name: All - LoadBalance(ch)
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 600
-    proxies:
-      - Original-1
-  - name: All - LoadBalance(rr)
-    type: load-balance
-    strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 5
     proxies:
       - Original-1
   - name: Original-1
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 600
+    interval: 5
     proxies:
       - B-Dusseldorf-1
       - A-Amsterdam-1
