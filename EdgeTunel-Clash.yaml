@@ -17,7 +17,7 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: B-Amsterdam-1
+  - name: B-Lille-1
     type: vmess
     server: 50.7.85.219
     port: 8443
@@ -29,7 +29,22 @@ proxies:
     servername: v2ray.doostankiyan.workers.dev
     network: ws
     ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Dusseldorf-1
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Lille-1
@@ -47,36 +62,6 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Kansas-1
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Lille-1
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
   - name: A-Dusseldorf-1
     type: vmess
     server: 50.7.85.219
@@ -92,6 +77,36 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
+  - name: B-Amsterdam-1
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Kansas-1
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
   - name: A-Kansas-1
     type: vmess
     server: 50.7.85.219
@@ -107,21 +122,6 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf-1
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
   - name: A-Amsterdam-1
     type: vmess
     server: 50.7.85.219
@@ -149,40 +149,41 @@ proxy-groups:
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 600
     proxies:
       - Original-1
   - name: All - Fallback
     type: fallback
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 600
     proxies:
       - Original-1
   - name: All - LoadBalance(ch)
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 600
     proxies:
       - Original-1
   - name: All - LoadBalance(rr)
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 600
     proxies:
       - Original-1
+  - name: Original-1
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 600
     proxies:
-      - B-Amsterdam-1
-      - A-Lille-1
-      - B-Kansas-1
       - B-Lille-1
-      - A-Dusseldorf-1
-      - A-Kansas-1
       - B-Dusseldorf-1
+      - A-Lille-1
+      - A-Dusseldorf-1
+      - B-Amsterdam-1
+      - B-Kansas-1
+      - A-Kansas-1
       - A-Amsterdam-1
 rules:
   - GEOIP,IR,DIRECT
