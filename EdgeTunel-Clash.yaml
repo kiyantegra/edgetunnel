@@ -17,7 +17,22 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: B-Dusseldorf-1
+  - name: A-Lille-1
+    type: vmess
+    server: 50.7.85.219
+    port: 8443
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: true
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas-1
     type: vmess
     server: 50.7.85.219
     port: 8443
@@ -29,7 +44,7 @@ proxies:
     servername: v2ray.doostankiyan.workers.dev
     network: ws
     ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
+      path: /Kansas.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Amsterdam-1
@@ -47,7 +62,7 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Amsterdam-1
+  - name: A-Kansas-1
     type: vmess
     server: 50.7.85.219
     port: 8443
@@ -56,12 +71,12 @@ proxies:
     alterId: 0
     tls: true
     skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
+      path: /Kansas.kotick.site/speedtest
       headers:
-        host: v2ray.doostankiyan.workers.dev
+        host: mci.kiyandoostan1245.workers.dev
   - name: B-Lille-1
     type: vmess
     server: 50.7.85.219
@@ -77,7 +92,7 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Kansas-1
+  - name: B-Amsterdam-1
     type: vmess
     server: 50.7.85.219
     port: 8443
@@ -89,7 +104,7 @@ proxies:
     servername: v2ray.doostankiyan.workers.dev
     network: ws
     ws-opts:
-      path: /Kansas.kotick.site/speedtest
+      path: /Amsterdam.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
   - name: A-Dusseldorf-1
@@ -107,7 +122,7 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: A-Lille-1
+  - name: B-Dusseldorf-1
     type: vmess
     server: 50.7.85.219
     port: 8443
@@ -116,41 +131,37 @@ proxies:
     alterId: 0
     tls: true
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: v2ray.doostankiyan.workers.dev
     network: ws
     ws-opts:
-      path: /Lille.kotick.site/speedtest
+      path: /Dusseldorf.kotick.site/speedtest
       headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Kansas-1
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
+        host: v2ray.doostankiyan.workers.dev
 proxy-groups:
-  - name: Original-1
+  - name: All
+    type: select
+    proxies:
+      - All - UrlTest
+      - Original-1
+  - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 1
     proxies:
-      - B-Dusseldorf-1
-      - A-Amsterdam-1
-      - B-Amsterdam-1
-      - B-Lille-1
-      - B-Kansas-1
-      - A-Dusseldorf-1
+      - Original-1
+  - name: Original-1
+    type: select
+    url: http://clients3.google.com/generate_204
+    interval: 1
+    proxies:
       - A-Lille-1
+      - B-Kansas-1
+      - A-Amsterdam-1
       - A-Kansas-1
+      - B-Lille-1
+      - B-Amsterdam-1
+      - A-Dusseldorf-1
+      - B-Dusseldorf-1
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
