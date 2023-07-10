@@ -150,7 +150,7 @@ proxy-groups:
     proxies:
       - Original-1
   - name: Original-1
-    type: select
+    type: url-test
     url: http://clients3.google.com/generate_204
     interval: 1
     proxies:
