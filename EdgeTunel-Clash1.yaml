@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：10-07-2023 20:56:44
+# 客户端：Clash
+# 创建时间：10-07-2023 21:23:06
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：8
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -22,8 +21,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"A-DE","type":"vless","server":"50.7.85.219","port":8443,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":true,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"B-DE","type":"vless","server":"50.7.85.219","port":8443,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":true,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
   - {"name":"A-Amsterdam","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
   - {"name":"B-Amsterdam","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
   - {"name":"A-Dusseldorf","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
@@ -38,8 +35,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - A-DE
-      - B-DE
       - A-Amsterdam
       - B-Amsterdam
       - A-Dusseldorf
@@ -54,8 +49,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - A-DE
-      - B-DE
       - A-Amsterdam
       - B-Amsterdam
       - A-Dusseldorf
@@ -70,8 +63,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - A-DE
-      - B-DE
       - A-Amsterdam
       - B-Amsterdam
       - A-Dusseldorf
@@ -85,8 +76,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-DE
-      - B-DE
       - A-Amsterdam
       - B-Amsterdam
       - A-Dusseldorf
@@ -100,8 +89,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - A-DE
-      - B-DE
       - A-Amsterdam
       - B-Amsterdam
       - A-Dusseldorf
@@ -115,8 +102,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-DE
-      - B-DE
       - A-Amsterdam
       - B-Amsterdam
       - A-Dusseldorf
@@ -147,8 +132,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - A-DE
-      - B-DE
       - A-Amsterdam
       - B-Amsterdam
       - A-Dusseldorf
