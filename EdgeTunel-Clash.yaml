@@ -17,36 +17,6 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: A-DE
-    type: vless
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: edgetunel.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: 
-      headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-  - name: B-DE
-    type: vless
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: edgetunel.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: 
-      headers:
-        host: edgetunel.doostankiyan.workers.dev
   - name: A-Lille-1
     type: vmess
     server: 50.7.85.219
@@ -184,14 +154,12 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 5
     proxies:
-      - A-DE-1
-      - B-DE-1
       - A-Lille-1
-      - B-Kansas-1
-      - A-Amsterdam-1
-      - A-Kansas-1
       - B-Lille-1
+      - A-Amsterdam-1
       - B-Amsterdam-1
+      - A-Kansas-1
+      - B-Kansas-1
       - A-Dusseldorf-1
       - B-Dusseldorf-1
 rules:
