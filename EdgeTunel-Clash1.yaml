@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：11-07-2023 14:48:51
+# 创建时间：11-07-2023 17:53:01
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：2
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,109 +22,53 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"A-DE_مناسب روز","type":"vless","server":"50.7.85.219","port":8443,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":true,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"B-DE_مناسب روز","type":"vless","server":"50.7.85.219","port":8443,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":true,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"A-Amsterdam-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Amsterdam-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Dusseldorf-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Dusseldorf-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Kansas-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Kansas-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Lille-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Lille-مناسب روز","type":"vmess","server":"50.7.85.219","port":8443,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v2ray.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"A-DE_مناسب روز-امنیت متوسط","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"B-DE_مناسب روز-امنیت متوسط","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - A-DE_مناسب روز
-      - B-DE_مناسب روز
-      - A-Amsterdam-مناسب روز
-      - B-Amsterdam-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
-      - A-Kansas-مناسب روز
-      - B-Kansas-مناسب روز
-      - A-Lille-مناسب روز
-      - B-Lille-مناسب روز
+      - A-DE_مناسب روز-امنیت متوسط
+      - B-DE_مناسب روز-امنیت متوسط
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - A-DE_مناسب روز
-      - B-DE_مناسب روز
-      - A-Amsterdam-مناسب روز
-      - B-Amsterdam-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
-      - A-Kansas-مناسب روز
-      - B-Kansas-مناسب روز
-      - A-Lille-مناسب روز
-      - B-Lille-مناسب روز
+      - A-DE_مناسب روز-امنیت متوسط
+      - B-DE_مناسب روز-امنیت متوسط
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - A-DE_مناسب روز
-      - B-DE_مناسب روز
-      - A-Amsterdam-مناسب روز
-      - B-Amsterdam-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
-      - A-Kansas-مناسب روز
-      - B-Kansas-مناسب روز
-      - A-Lille-مناسب روز
-      - B-Lille-مناسب روز
+      - A-DE_مناسب روز-امنیت متوسط
+      - B-DE_مناسب روز-امنیت متوسط
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-DE_مناسب روز
-      - B-DE_مناسب روز
-      - A-Amsterdam-مناسب روز
-      - B-Amsterdam-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
-      - A-Kansas-مناسب روز
-      - B-Kansas-مناسب روز
-      - A-Lille-مناسب روز
-      - B-Lille-مناسب روز
+      - A-DE_مناسب روز-امنیت متوسط
+      - B-DE_مناسب روز-امنیت متوسط
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - A-DE_مناسب روز
-      - B-DE_مناسب روز
-      - A-Amsterdam-مناسب روز
-      - B-Amsterdam-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
-      - A-Kansas-مناسب روز
-      - B-Kansas-مناسب روز
-      - A-Lille-مناسب روز
-      - B-Lille-مناسب روز
+      - A-DE_مناسب روز-امنیت متوسط
+      - B-DE_مناسب روز-امنیت متوسط
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-DE_مناسب روز
-      - B-DE_مناسب روز
-      - A-Amsterdam-مناسب روز
-      - B-Amsterdam-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
-      - A-Kansas-مناسب روز
-      - B-Kansas-مناسب روز
-      - A-Lille-مناسب روز
-      - B-Lille-مناسب روز
+      - A-DE_مناسب روز-امنیت متوسط
+      - B-DE_مناسب روز-امنیت متوسط
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,16 +91,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - A-DE_مناسب روز
-      - B-DE_مناسب روز
-      - A-Amsterdam-مناسب روز
-      - B-Amsterdam-مناسب روز
-      - A-Dusseldorf-مناسب روز
-      - B-Dusseldorf-مناسب روز
-      - A-Kansas-مناسب روز
-      - B-Kansas-مناسب روز
-      - A-Lille-مناسب روز
-      - B-Lille-مناسب روز
+      - A-DE_مناسب روز-امنیت متوسط
+      - B-DE_مناسب روز-امنیت متوسط
 
 rules:
 # 本地/局域网地址
