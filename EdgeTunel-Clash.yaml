@@ -17,96 +17,6 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: A-Dusseldorf-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Kansas-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Amsterdam-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Lille-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Dusseldorf-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Lille-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
   - name: B-DE_مناسب روز-روز
     type: vless
     server: 50.7.85.219
@@ -133,69 +43,9 @@ proxies:
       headers:
         host: edgetunel.kiyandoostan1245.workers.dev
     client-fingerprint: chrome
-  - name: A-Amsterdam-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Kansas-مناسب روز-روز
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Amsterdam-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Lille-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
   - name: A-DE_مناسب شب-شب
     type: vless
-    server: 50.7.85.219
+    server: 23.227.60.184
     port: 8443
     uuid: b649654d-fb97-4271-860d-4d085d195a8e
     tls: true
@@ -206,54 +56,9 @@ proxies:
       headers:
         host: edgetunel.kiyandoostan1245.workers.dev
     client-fingerprint: chrome
-  - name: B-Kansas-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Amsterdam-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
   - name: B-DE_مناسب شب-شب
     type: vless
-    server: 50.7.85.219
+    server: 23.227.60.184
     port: 8443
     uuid: b649654d-fb97-4271-860d-4d085d195a8e
     tls: true
@@ -263,51 +68,6 @@ proxies:
       path: /
       headers:
         host: edgetunel.doostankiyan.workers.dev
-  - name: A-Dusseldorf-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Kansas-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Lille-مناسب شب-شب
-    type: vmess
-    server: 50.7.85.219
-    port: 8443
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
 proxy-groups:
   - name: All
     type: select
@@ -321,14 +81,6 @@ proxy-groups:
     proxies:
       - A-DE_مناسب روز-روز
       - B-DE_مناسب روز-روز
-      - A-Lille-مناسب روز-روز
-      - B-Lille-مناسب روز-روز
-      - A-Amsterdam-مناسب روز-روز
-      - B-Amsterdam-مناسب روز-روز   
-      - A-Dusseldorf-مناسب روز-روز
-      - B-Dusseldorf-مناسب روز-روز
-      - A-Kansas-مناسب روز-روز
-      - B-Kansas-مناسب روز-روز  
   - name: Original-شب
     type: url-test
     url: http://clients3.google.com/generate_204
@@ -336,14 +88,6 @@ proxy-groups:
     proxies:
       - A-DE_مناسب شب-شب
       - B-DE_مناسب شب-شب
-      - A-Lille-مناسب شب-شب
-      - B-Lille-مناسب شب-شب
-      - B-Amsterdam-مناسب شب-شب
-      - A-Amsterdam-مناسب شب-شب
-      - B-Dusseldorf-مناسب شب-شب
-      - A-Dusseldorf-مناسب شب-شب
-      - A-Kansas-مناسب شب-شب
-      - B-Kansas-مناسب شب-شب
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
