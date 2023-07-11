@@ -312,40 +312,6 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-روز
-      - Original-شب
-  - name: All - UrlTest
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-روز
-      - Original-شب
-  - name: All - Fallback
-    type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-روز
-      - Original-شب
-  - name: All - LoadBalance(ch)
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-روز
-      - Original-شب
-  - name: All - LoadBalance(rr)
-    type: load-balance
-    strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
       - Original-روز
       - Original-شب
   - name: Original-روز
@@ -355,14 +321,14 @@ proxy-groups:
     proxies:
       - A-DE_مناسب روز-روز
       - B-DE_مناسب روز-روز
-      - A-Dusseldorf-مناسب روز-روز
-      - B-Kansas-مناسب روز-روز
-      - B-Amsterdam-مناسب روز-روز
-      - B-Lille-مناسب روز-روز
-      - B-Dusseldorf-مناسب روز-روز
       - A-Lille-مناسب روز-روز
+      - B-Lille-مناسب روز-روز
       - A-Amsterdam-مناسب روز-روز
+      - B-Amsterdam-مناسب روز-روز   
+      - A-Dusseldorf-مناسب روز-روز
+      - B-Dusseldorf-مناسب روز-روز
       - A-Kansas-مناسب روز-روز
+      - B-Kansas-مناسب روز-روز  
   - name: Original-شب
     type: url-test
     url: http://clients3.google.com/generate_204
@@ -370,14 +336,14 @@ proxy-groups:
     proxies:
       - A-DE_مناسب شب-شب
       - B-DE_مناسب شب-شب
-      - B-Amsterdam-مناسب شب-شب
       - A-Lille-مناسب شب-شب
-      - B-Kansas-مناسب شب-شب
+      - B-Lille-مناسب شب-شب
+      - B-Amsterdam-مناسب شب-شب
       - A-Amsterdam-مناسب شب-شب
       - B-Dusseldorf-مناسب شب-شب
       - A-Dusseldorf-مناسب شب-شب
       - A-Kansas-مناسب شب-شب
-      - B-Lille-مناسب شب-شب
+      - B-Kansas-مناسب شب-شب
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
