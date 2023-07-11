@@ -17,7 +17,33 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: B-DE_مناسب روز-روز
+  - name: B-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
+    type: vless
+    server: 50.7.85.219
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.doostankiyan.workers.dev
+    client-fingerprint: chrome
+  - name: A-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
+    type: vless
+    server: 50.7.85.219
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.kiyandoostan1245.workers.dev
+    client-fingerprint: chrome
+  - name: B-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
     type: vless
     server: 50.7.85.219
     port: 8443
@@ -30,7 +56,7 @@ proxies:
       headers:
         host: edgetunel.doostankiyan.workers.dev
     client-fingerprint: chrome
-  - name: A-DE_مناسب روز-روز
+  - name: A-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
     type: vless
     server: 50.7.85.219
     port: 8443
@@ -43,7 +69,44 @@ proxies:
       headers:
         host: edgetunel.kiyandoostan1245.workers.dev
     client-fingerprint: chrome
-  - name: A-DE_مناسب شب-شب
+  - name: B-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
+    type: vless
+    server: 23.227.60.184
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.doostankiyan.workers.dev
+  - name: A-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
+    type: vless
+    server: 23.227.60.184
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.kiyandoostan1245.workers.dev
+    client-fingerprint: chrome
+  - name: B-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
+    type: vless
+    server: 23.227.60.184
+    port: 8443
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: true
+    servername: edgetunel.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.doostankiyan.workers.dev
+  - name: A-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
     type: vless
     server: 23.227.60.184
     port: 8443
@@ -56,38 +119,42 @@ proxies:
       headers:
         host: edgetunel.kiyandoostan1245.workers.dev
     client-fingerprint: chrome
-  - name: B-DE_مناسب شب-شب
-    type: vless
-    server: 23.227.60.184
-    port: 8443
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: true
-    servername: edgetunel.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunel.doostankiyan.workers.dev
 proxy-groups:
   - name: All
     type: select
     proxies:
-      - Original-روز
-      - Original-شب
-  - name: Original-روز
+      - روز-امنیت متوسط
+      - روز-امنیت بالا
+      - شب-امنیت متوسط
+      - شب-امنیت بالا
+  - name: روز-امنیت متوسط
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - A-DE_مناسب روز-روز
-      - B-DE_مناسب روز-روز
-  - name: Original-شب
+      - B-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
+      - A-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
+  - name: روز-امنیت بالا
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - A-DE_مناسب شب-شب
-      - B-DE_مناسب شب-شب
+      - B-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
+      - A-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
+  - name: شب-امنیت متوسط
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - B-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
+      - A-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
+  - name: شب-امنیت بالا
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - B-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
+      - A-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
