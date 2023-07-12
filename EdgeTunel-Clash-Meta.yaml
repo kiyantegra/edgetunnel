@@ -1,0 +1,189 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  nameserver:
+    - 114.114.114.114
+    - 223.5.5.5
+    - 8.8.8.8
+    - 9.9.9.9
+    - 1.1.1.1
+    - https://dns.google/dns-query
+    - tls://dns.google:853
+proxies:
+  - name: A-Kansas-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-DE-Edge Tunel
+    type: vless
+    server: 50.7.85.219
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.kiyandoostan1245.workers.dev
+    client-fingerprint: chrome
+  - name: B-DE-Edge Tunel
+    type: vless
+    server: 50.7.85.219
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.doostankiyan.workers.dev
+    client-fingerprint: chrome
+  - name: B-Dusseldorf-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Lille-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Amsterdam-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Amsterdam-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Lille-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+proxy-groups:
+  - name: All
+    type: select
+    proxies:
+      - Edge Tunel
+  - name: Edge Tunel
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - A-DE-Edge Tunel
+      - B-DE-Edge Tunel
+      - A-Amsterdam-Edge Tunel
+      - B-Amsterdam-Edge Tunel
+      - A-Dusseldorf-Edge Tunel
+      - B-Dusseldorf-Edge Tunel
+      - A-Lille-Edge Tunel
+      - B-Lille-Edge Tunel
+      - A-Kansas-Edge Tunel
+      - B-Kansas-Edge Tunel
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,ir,DIRECT
+  - MATCH,All
