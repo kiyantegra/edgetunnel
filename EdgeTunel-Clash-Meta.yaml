@@ -17,7 +17,22 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: A-Kansas-Edge Tunel
+  - name: A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas_همه ی اپراتورها-همه ی اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -31,21 +46,23 @@ proxies:
     ws-opts:
       path: /Kansas.kotick.site/speedtest
       headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-DE-Edge Tunel
-    type: vless
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
     server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyandoostan1245.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Amsterdam.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: B-DE-Edge Tunel
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-DE_همه ی اپراتورها-همه ی اپراتورها
     type: vless
     server: 50.7.85.219
     port: 80
@@ -58,82 +75,7 @@ proxies:
       headers:
         host: edgetunel.doostankiyan.workers.dev
     client-fingerprint: chrome
-  - name: B-Dusseldorf-Edge Tunel
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Lille-Edge Tunel
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Amsterdam-Edge Tunel
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Dusseldorf-Edge Tunel
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Amsterdam-Edge Tunel
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Lille-Edge Tunel
+  - name: A-Lille_همه ی اپراتورها-همه ی اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -148,7 +90,7 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: B-Kansas-Edge Tunel
+  - name: A-Kansas_همه ی اپراتورها-همه ی اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -162,27 +104,611 @@ proxies:
     ws-opts:
       path: /Kansas.kotick.site/speedtest
       headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-DE_همه ی اپراتورها-همه ی اپراتورها
+    type: vless
+    server: 50.7.85.219
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.kiyandoostan1245.workers.dev
+    client-fingerprint: chrome
+  - name: B-Lille_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
         host: v2ray.doostankiyan.workers.dev
+  - name: B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Kansas_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-DE_ایرانسل_3-ایرانسل
+    type: vless
+    server: 172.67.160.6
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.doostankiyan.workers.dev
+    client-fingerprint: chrome
+  - name: A-DE_ایرانسل_2-ایرانسل
+    type: vless
+    server: 104.26.1.120
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.kiyandoostan1245.workers.dev
+    client-fingerprint: chrome
+  - name: B-Dusseldorf_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Lille_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Dusseldorf_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Amsterdam_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-DE_ایرانسل_2-ایرانسل
+    type: vless
+    server: 104.26.1.120
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.doostankiyan.workers.dev
+    client-fingerprint: chrome
+  - name: A-Amsterdam_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Kansas_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Amsterdam_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Amsterdam_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-DE_ایرانسل_1-ایرانسل
+    type: vless
+    server: 188.114.97.2
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.doostankiyan.workers.dev
+    client-fingerprint: chrome
+  - name: A-Lille_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Lille_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Lille_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-DE_ایرانسل_1-ایرانسل
+    type: vless
+    server: 188.114.97.2
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.kiyandoostan1245.workers.dev
+    client-fingerprint: chrome
+  - name: B-Kansas_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Lille_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Dusseldorf_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-DE_ایرانسل_3-ایرانسل
+    type: vless
+    server: 172.67.160.6
+    port: 80
+    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    tls: false
+    servername: edgetunel.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunel.kiyandoostan1245.workers.dev
+    client-fingerprint: chrome
+  - name: B-Lille_ایرانسل_1-ایرانسل
+    type: vmess
+    server: 188.114.97.2
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Amsterdam_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Amsterdam_ایرانسل_2-ایرانسل
+    type: vmess
+    server: 104.26.1.120
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Kansas_ایرانسل_3-ایرانسل
+    type: vmess
+    server: 172.67.160.6
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
 proxy-groups:
   - name: All
     type: select
     proxies:
-      - Edge Tunel
-  - name: Edge Tunel
+      - بهترین پینگ-همه ی اپراتورها
+      - انتخاب-همه ی اپراتورها
+      - بهترین پینگ-ایرانسل
+      - انتخاب-ایرانسل
+  - name: بهترین پینگ-همه ی اپراتورها
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - A-DE-Edge Tunel
-      - B-DE-Edge Tunel
-      - A-Amsterdam-Edge Tunel
-      - B-Amsterdam-Edge Tunel
-      - A-Dusseldorf-Edge Tunel
-      - B-Dusseldorf-Edge Tunel
-      - A-Lille-Edge Tunel
-      - B-Lille-Edge Tunel
-      - A-Kansas-Edge Tunel
-      - B-Kansas-Edge Tunel
+      - A-DE_همه ی اپراتورها-همه ی اپراتورها
+      - B-DE_همه ی اپراتورها-همه ی اپراتورها
+      - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+      - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+      - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+      - B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - A-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
+      - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
+  - name: انتخاب-همه ی اپراتورها
+    type: select
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - A-DE_همه ی اپراتورها-همه ی اپراتورها
+      - B-DE_همه ی اپراتورها-همه ی اپراتورها
+      - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+      - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+      - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+      - B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - A-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
+      - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
+  - name: بهترین پینگ-ایرانسل
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - A-DE_ایرانسل_2-ایرانسل
+      - B-DE_ایرانسل_2-ایرانسل
+      - A-Kansas_ایرانسل_2-ایرانسل
+      - B-DE_ایرانسل_3-ایرانسل
+      - B-Dusseldorf_ایرانسل_1-ایرانسل
+      - A-Lille_ایرانسل_2-ایرانسل
+      - B-Kansas_ایرانسل_1-ایرانسل
+      - A-Dusseldorf_ایرانسل_2-ایرانسل
+      - B-Kansas_ایرانسل_3-ایرانسل
+      - B-Dusseldorf_ایرانسل_2-ایرانسل
+      - A-Dusseldorf_ایرانسل_1-ایرانسل
+      - B-Amsterdam_ایرانسل_1-ایرانسل
+      - A-Amsterdam_ایرانسل_3-ایرانسل
+      - A-Kansas_ایرانسل_1-ایرانسل
+      - B-Amsterdam_ایرانسل_3-ایرانسل
+      - A-Dusseldorf_ایرانسل_3-ایرانسل
+      - A-Amsterdam_ایرانسل_1-ایرانسل
+      - B-DE_ایرانسل_1-ایرانسل
+      - A-Lille_ایرانسل_3-ایرانسل
+      - B-Lille_ایرانسل_3-ایرانسل
+      - B-Lille_ایرانسل_2-ایرانسل
+      - A-DE_ایرانسل_1-ایرانسل
+      - B-Kansas_ایرانسل_2-ایرانسل
+      - A-Lille_ایرانسل_1-ایرانسل
+      - B-Dusseldorf_ایرانسل_3-ایرانسل
+      - A-DE_ایرانسل_3-ایرانسل
+      - B-Lille_ایرانسل_1-ایرانسل
+      - A-Amsterdam_ایرانسل_2-ایرانسل
+      - B-Amsterdam_ایرانسل_2-ایرانسل
+      - A-Kansas_ایرانسل_3-ایرانسل
+  - name: انتخاب-ایرانسل
+    type: select
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - A-DE_ایرانسل_2-ایرانسل
+      - B-DE_ایرانسل_2-ایرانسل
+      - A-Kansas_ایرانسل_2-ایرانسل
+      - B-DE_ایرانسل_3-ایرانسل
+      - B-Dusseldorf_ایرانسل_1-ایرانسل
+      - A-Lille_ایرانسل_2-ایرانسل
+      - B-Kansas_ایرانسل_1-ایرانسل
+      - A-Dusseldorf_ایرانسل_2-ایرانسل
+      - B-Kansas_ایرانسل_3-ایرانسل
+      - B-Dusseldorf_ایرانسل_2-ایرانسل
+      - A-Dusseldorf_ایرانسل_1-ایرانسل
+      - B-Amsterdam_ایرانسل_1-ایرانسل
+      - A-Amsterdam_ایرانسل_3-ایرانسل
+      - A-Kansas_ایرانسل_1-ایرانسل
+      - B-Amsterdam_ایرانسل_3-ایرانسل
+      - A-Dusseldorf_ایرانسل_3-ایرانسل
+      - A-Amsterdam_ایرانسل_1-ایرانسل
+      - B-DE_ایرانسل_1-ایرانسل
+      - A-Lille_ایرانسل_3-ایرانسل
+      - B-Lille_ایرانسل_3-ایرانسل
+      - B-Lille_ایرانسل_2-ایرانسل
+      - A-DE_ایرانسل_1-ایرانسل
+      - B-Kansas_ایرانسل_2-ایرانسل
+      - A-Lille_ایرانسل_1-ایرانسل
+      - B-Dusseldorf_ایرانسل_3-ایرانسل
+      - A-DE_ایرانسل_3-ایرانسل
+      - B-Lille_ایرانسل_1-ایرانسل
+      - A-Amsterdam_ایرانسل_2-ایرانسل
+      - B-Amsterdam_ایرانسل_2-ایرانسل
+      - A-Kansas_ایرانسل_3-ایرانسل
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
