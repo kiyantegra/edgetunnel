@@ -17,144 +17,144 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: B-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
-    type: vless
+  - name: A-Kansas-Edge Tunel
+    type: vmess
     server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
     tls: false
-    servername: edgetunel.doostankiyan.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Kansas.kotick.site/speedtest
       headers:
-        host: edgetunel.doostankiyan.workers.dev
-    client-fingerprint: chrome
-  - name: A-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
-    type: vless
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Dusseldorf-Edge Tunel
+    type: vmess
     server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyandoostan1245.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Dusseldorf.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: B-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
-    type: vless
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Lille-Edge Tunel
+    type: vmess
     server: 50.7.85.219
-    port: 8443
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: true
-    servername: edgetunel.doostankiyan.workers.dev
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Lille.kotick.site/speedtest
       headers:
-        host: edgetunel.doostankiyan.workers.dev
-    client-fingerprint: chrome
-  - name: A-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
-    type: vless
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Amsterdam-Edge Tunel
+    type: vmess
     server: 50.7.85.219
-    port: 8443
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: true
-    servername: edgetunel.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: B-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
-    type: vless
-    server: 23.227.60.184
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
     tls: false
-    servername: edgetunel.doostankiyan.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Amsterdam.kotick.site/speedtest
       headers:
-        host: edgetunel.doostankiyan.workers.dev
-  - name: A-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
-    type: vless
-    server: 23.227.60.184
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyandoostan1245.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Dusseldorf.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: B-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
-    type: vless
-    server: 23.227.60.184
-    port: 8443
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: true
-    servername: edgetunel.doostankiyan.workers.dev
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Amsterdam-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Amsterdam.kotick.site/speedtest
       headers:
-        host: edgetunel.doostankiyan.workers.dev
-  - name: A-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
-    type: vless
-    server: 23.227.60.184
-    port: 8443
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: true
-    servername: edgetunel.kiyandoostan1245.workers.dev
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Lille-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Lille.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas-Edge Tunel
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
 proxy-groups:
   - name: All
     type: select
     proxies:
-      - روز-امنیت متوسط
-      - روز-امنیت بالا
-      - شب-امنیت متوسط
-      - شب-امنیت بالا
-  - name: روز-امنیت متوسط
+      - Edge Tunel
+  - name: Edge Tunel
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - B-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
-      - A-DE_مناسب روز-امنیت متوسط-روز-امنیت متوسط
-  - name: روز-امنیت بالا
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - B-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
-      - A-DE_مناسب روز-امنیت بالا-روز-امنیت بالا
-  - name: شب-امنیت متوسط
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - B-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
-      - A-DE_مناسب شب-امنیت متوسط-شب-امنیت متوسط
-  - name: شب-امنیت بالا
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - B-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
-      - A-DE_مناسب شب-امنیت بالا-شب-امنیت بالا
+      - A-Amsterdam-Edge Tunel
+      - B-Amsterdam-Edge Tunel
+      - A-Dusseldorf-Edge Tunel
+      - B-Dusseldorf-Edge Tunel
+      - A-Lille-Edge Tunel
+      - B-Lille-Edge Tunel
+      - A-Kansas-Edge Tunel
+      - B-Kansas-Edge Tunel
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
