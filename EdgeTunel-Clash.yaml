@@ -149,8 +149,6 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - A-DE_همه ی اپراتورها-همه ی اپراتورها
-      - B-DE_همه ی اپراتورها-همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
@@ -164,8 +162,6 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - A-DE_همه ی اپراتورها-همه ی اپراتورها
-      - B-DE_همه ی اپراتورها-همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
