@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：13-07-2023 01:25:10
+# 创建时间：19-07-2023 03:14:17
 # 使用模版：V2RaySE 默认模版
-# 节点数量：30
+# 节点数量：9
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -24,34 +24,13 @@ dns:
 proxies:
   - {"name":"A-DE_ایرانسل_1","type":"vless","server":"188.114.97.2","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
   - {"name":"B-DE_ایرانسل_1","type":"vless","server":"188.114.97.2","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"A-Amsterdam_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Amsterdam_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Dusseldorf_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Dusseldorf_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Lille_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Lille_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Kansas_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Kansas_ایرانسل_1","type":"vmess","server":"188.114.97.2","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-DE_ایرانسل_2","type":"vless","server":"104.26.1.120","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"B-DE_ایرانسل_2","type":"vless","server":"104.26.1.120","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"A-Amsterdam_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Amsterdam_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Dusseldorf_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Dusseldorf_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Lille_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Lille_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Kansas_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Kansas_ایرانسل_2","type":"vmess","server":"104.26.1.120","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-DE_ایرانسل_3","type":"vless","server":"172.67.160.6","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"B-DE_ایرانسل_3","type":"vless","server":"172.67.160.6","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"A-Amsterdam_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Amsterdam_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Dusseldorf_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Dusseldorf_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Lille_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Lille_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Kansas_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Kansas_ایرانسل_3","type":"vmess","server":"172.67.160.6","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"C-DE_ایرانسل_1","type":"vless","server":"188.114.97.2","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyanultraspeed.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyanultraspeed.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"A-DE_ایرانسل_2","type":"vless","server":"172.67.160.6","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"B-DE_ایرانسل_2","type":"vless","server":"172.67.160.6","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"C-DE_ایرانسل_2","type":"vless","server":"172.67.160.6","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyanultraspeed.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyanultraspeed.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"A-DE_ایرانسل_3","type":"vless","server":"104.26.1.120","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"B-DE_ایرانسل_3","type":"vless","server":"104.26.1.120","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"C-DE_ایرانسل_3","type":"vless","server":"104.26.1.120","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyanultraspeed.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyanultraspeed.workers.dev"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -60,34 +39,13 @@ proxy-groups:
       - DIRECT
       - A-DE_ایرانسل_1
       - B-DE_ایرانسل_1
-      - A-Amsterdam_ایرانسل_1
-      - B-Amsterdam_ایرانسل_1
-      - A-Dusseldorf_ایرانسل_1
-      - B-Dusseldorf_ایرانسل_1
-      - A-Lille_ایرانسل_1
-      - B-Lille_ایرانسل_1
-      - A-Kansas_ایرانسل_1
-      - B-Kansas_ایرانسل_1
+      - C-DE_ایرانسل_1
       - A-DE_ایرانسل_2
       - B-DE_ایرانسل_2
-      - A-Amsterdam_ایرانسل_2
-      - B-Amsterdam_ایرانسل_2
-      - A-Dusseldorf_ایرانسل_2
-      - B-Dusseldorf_ایرانسل_2
-      - A-Lille_ایرانسل_2
-      - B-Lille_ایرانسل_2
-      - A-Kansas_ایرانسل_2
-      - B-Kansas_ایرانسل_2
+      - C-DE_ایرانسل_2
       - A-DE_ایرانسل_3
       - B-DE_ایرانسل_3
-      - A-Amsterdam_ایرانسل_3
-      - B-Amsterdam_ایرانسل_3
-      - A-Dusseldorf_ایرانسل_3
-      - B-Dusseldorf_ایرانسل_3
-      - A-Lille_ایرانسل_3
-      - B-Lille_ایرانسل_3
-      - A-Kansas_ایرانسل_3
-      - B-Kansas_ایرانسل_3
+      - C-DE_ایرانسل_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -96,34 +54,13 @@ proxy-groups:
     proxies:
       - A-DE_ایرانسل_1
       - B-DE_ایرانسل_1
-      - A-Amsterdam_ایرانسل_1
-      - B-Amsterdam_ایرانسل_1
-      - A-Dusseldorf_ایرانسل_1
-      - B-Dusseldorf_ایرانسل_1
-      - A-Lille_ایرانسل_1
-      - B-Lille_ایرانسل_1
-      - A-Kansas_ایرانسل_1
-      - B-Kansas_ایرانسل_1
+      - C-DE_ایرانسل_1
       - A-DE_ایرانسل_2
       - B-DE_ایرانسل_2
-      - A-Amsterdam_ایرانسل_2
-      - B-Amsterdam_ایرانسل_2
-      - A-Dusseldorf_ایرانسل_2
-      - B-Dusseldorf_ایرانسل_2
-      - A-Lille_ایرانسل_2
-      - B-Lille_ایرانسل_2
-      - A-Kansas_ایرانسل_2
-      - B-Kansas_ایرانسل_2
+      - C-DE_ایرانسل_2
       - A-DE_ایرانسل_3
       - B-DE_ایرانسل_3
-      - A-Amsterdam_ایرانسل_3
-      - B-Amsterdam_ایرانسل_3
-      - A-Dusseldorf_ایرانسل_3
-      - B-Dusseldorf_ایرانسل_3
-      - A-Lille_ایرانسل_3
-      - B-Lille_ایرانسل_3
-      - A-Kansas_ایرانسل_3
-      - B-Kansas_ایرانسل_3
+      - C-DE_ایرانسل_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -132,34 +69,13 @@ proxy-groups:
       - 🎯 全球直连
       - A-DE_ایرانسل_1
       - B-DE_ایرانسل_1
-      - A-Amsterdam_ایرانسل_1
-      - B-Amsterdam_ایرانسل_1
-      - A-Dusseldorf_ایرانسل_1
-      - B-Dusseldorf_ایرانسل_1
-      - A-Lille_ایرانسل_1
-      - B-Lille_ایرانسل_1
-      - A-Kansas_ایرانسل_1
-      - B-Kansas_ایرانسل_1
+      - C-DE_ایرانسل_1
       - A-DE_ایرانسل_2
       - B-DE_ایرانسل_2
-      - A-Amsterdam_ایرانسل_2
-      - B-Amsterdam_ایرانسل_2
-      - A-Dusseldorf_ایرانسل_2
-      - B-Dusseldorf_ایرانسل_2
-      - A-Lille_ایرانسل_2
-      - B-Lille_ایرانسل_2
-      - A-Kansas_ایرانسل_2
-      - B-Kansas_ایرانسل_2
+      - C-DE_ایرانسل_2
       - A-DE_ایرانسل_3
       - B-DE_ایرانسل_3
-      - A-Amsterdam_ایرانسل_3
-      - B-Amsterdam_ایرانسل_3
-      - A-Dusseldorf_ایرانسل_3
-      - B-Dusseldorf_ایرانسل_3
-      - A-Lille_ایرانسل_3
-      - B-Lille_ایرانسل_3
-      - A-Kansas_ایرانسل_3
-      - B-Kansas_ایرانسل_3
+      - C-DE_ایرانسل_3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -167,34 +83,13 @@ proxy-groups:
       - 🎯 全球直连
       - A-DE_ایرانسل_1
       - B-DE_ایرانسل_1
-      - A-Amsterdam_ایرانسل_1
-      - B-Amsterdam_ایرانسل_1
-      - A-Dusseldorf_ایرانسل_1
-      - B-Dusseldorf_ایرانسل_1
-      - A-Lille_ایرانسل_1
-      - B-Lille_ایرانسل_1
-      - A-Kansas_ایرانسل_1
-      - B-Kansas_ایرانسل_1
+      - C-DE_ایرانسل_1
       - A-DE_ایرانسل_2
       - B-DE_ایرانسل_2
-      - A-Amsterdam_ایرانسل_2
-      - B-Amsterdam_ایرانسل_2
-      - A-Dusseldorf_ایرانسل_2
-      - B-Dusseldorf_ایرانسل_2
-      - A-Lille_ایرانسل_2
-      - B-Lille_ایرانسل_2
-      - A-Kansas_ایرانسل_2
-      - B-Kansas_ایرانسل_2
+      - C-DE_ایرانسل_2
       - A-DE_ایرانسل_3
       - B-DE_ایرانسل_3
-      - A-Amsterdam_ایرانسل_3
-      - B-Amsterdam_ایرانسل_3
-      - A-Dusseldorf_ایرانسل_3
-      - B-Dusseldorf_ایرانسل_3
-      - A-Lille_ایرانسل_3
-      - B-Lille_ایرانسل_3
-      - A-Kansas_ایرانسل_3
-      - B-Kansas_ایرانسل_3
+      - C-DE_ایرانسل_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -202,34 +97,13 @@ proxy-groups:
       - 🚀 节点选择
       - A-DE_ایرانسل_1
       - B-DE_ایرانسل_1
-      - A-Amsterdam_ایرانسل_1
-      - B-Amsterdam_ایرانسل_1
-      - A-Dusseldorf_ایرانسل_1
-      - B-Dusseldorf_ایرانسل_1
-      - A-Lille_ایرانسل_1
-      - B-Lille_ایرانسل_1
-      - A-Kansas_ایرانسل_1
-      - B-Kansas_ایرانسل_1
+      - C-DE_ایرانسل_1
       - A-DE_ایرانسل_2
       - B-DE_ایرانسل_2
-      - A-Amsterdam_ایرانسل_2
-      - B-Amsterdam_ایرانسل_2
-      - A-Dusseldorf_ایرانسل_2
-      - B-Dusseldorf_ایرانسل_2
-      - A-Lille_ایرانسل_2
-      - B-Lille_ایرانسل_2
-      - A-Kansas_ایرانسل_2
-      - B-Kansas_ایرانسل_2
+      - C-DE_ایرانسل_2
       - A-DE_ایرانسل_3
       - B-DE_ایرانسل_3
-      - A-Amsterdam_ایرانسل_3
-      - B-Amsterdam_ایرانسل_3
-      - A-Dusseldorf_ایرانسل_3
-      - B-Dusseldorf_ایرانسل_3
-      - A-Lille_ایرانسل_3
-      - B-Lille_ایرانسل_3
-      - A-Kansas_ایرانسل_3
-      - B-Kansas_ایرانسل_3
+      - C-DE_ایرانسل_3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -237,34 +111,13 @@ proxy-groups:
       - 🎯 全球直连
       - A-DE_ایرانسل_1
       - B-DE_ایرانسل_1
-      - A-Amsterdam_ایرانسل_1
-      - B-Amsterdam_ایرانسل_1
-      - A-Dusseldorf_ایرانسل_1
-      - B-Dusseldorf_ایرانسل_1
-      - A-Lille_ایرانسل_1
-      - B-Lille_ایرانسل_1
-      - A-Kansas_ایرانسل_1
-      - B-Kansas_ایرانسل_1
+      - C-DE_ایرانسل_1
       - A-DE_ایرانسل_2
       - B-DE_ایرانسل_2
-      - A-Amsterdam_ایرانسل_2
-      - B-Amsterdam_ایرانسل_2
-      - A-Dusseldorf_ایرانسل_2
-      - B-Dusseldorf_ایرانسل_2
-      - A-Lille_ایرانسل_2
-      - B-Lille_ایرانسل_2
-      - A-Kansas_ایرانسل_2
-      - B-Kansas_ایرانسل_2
+      - C-DE_ایرانسل_2
       - A-DE_ایرانسل_3
       - B-DE_ایرانسل_3
-      - A-Amsterdam_ایرانسل_3
-      - B-Amsterdam_ایرانسل_3
-      - A-Dusseldorf_ایرانسل_3
-      - B-Dusseldorf_ایرانسل_3
-      - A-Lille_ایرانسل_3
-      - B-Lille_ایرانسل_3
-      - A-Kansas_ایرانسل_3
-      - B-Kansas_ایرانسل_3
+      - C-DE_ایرانسل_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -289,34 +142,13 @@ proxy-groups:
       - ♻️ 自动选择
       - A-DE_ایرانسل_1
       - B-DE_ایرانسل_1
-      - A-Amsterdam_ایرانسل_1
-      - B-Amsterdam_ایرانسل_1
-      - A-Dusseldorf_ایرانسل_1
-      - B-Dusseldorf_ایرانسل_1
-      - A-Lille_ایرانسل_1
-      - B-Lille_ایرانسل_1
-      - A-Kansas_ایرانسل_1
-      - B-Kansas_ایرانسل_1
+      - C-DE_ایرانسل_1
       - A-DE_ایرانسل_2
       - B-DE_ایرانسل_2
-      - A-Amsterdam_ایرانسل_2
-      - B-Amsterdam_ایرانسل_2
-      - A-Dusseldorf_ایرانسل_2
-      - B-Dusseldorf_ایرانسل_2
-      - A-Lille_ایرانسل_2
-      - B-Lille_ایرانسل_2
-      - A-Kansas_ایرانسل_2
-      - B-Kansas_ایرانسل_2
+      - C-DE_ایرانسل_2
       - A-DE_ایرانسل_3
       - B-DE_ایرانسل_3
-      - A-Amsterdam_ایرانسل_3
-      - B-Amsterdam_ایرانسل_3
-      - A-Dusseldorf_ایرانسل_3
-      - B-Dusseldorf_ایرانسل_3
-      - A-Lille_ایرانسل_3
-      - B-Lille_ایرانسل_3
-      - A-Kansas_ایرانسل_3
-      - B-Kansas_ایرانسل_3
+      - C-DE_ایرانسل_3
 
 rules:
 # 本地/局域网地址
