@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：13-07-2023 01:24:22
+# 创建时间：19-07-2023 03:13:25
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：15
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -24,14 +24,19 @@ dns:
 proxies:
   - {"name":"A-DE_همه ی اپراتورها","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
   - {"name":"B-DE_همه ی اپراتورها","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"A-Amsterdam_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Amsterdam_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Dusseldorf_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Dusseldorf_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Lille_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Lille_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"A-Kansas_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Kansas_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"B9ED1C44-C953-4355-B7B2-3E2AB5F32CA0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"C-DE_همه ی اپراتورها","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyanultraspeed.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyanultraspeed.workers.dev"}},"client-fingerprint":"chrome"}
+  - {"name":"A-Amsterdam_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Amsterdam_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"C-Amsterdam_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
+  - {"name":"A-Dusseldorf_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Dusseldorf_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"C-Dusseldorf_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
+  - {"name":"A-Lille_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Lille_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"C-Lille_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
+  - {"name":"A-Kansas_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
+  - {"name":"B-Kansas_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
+  - {"name":"C-Kansas_همه ی اپراتورها","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -40,14 +45,19 @@ proxy-groups:
       - DIRECT
       - A-DE_همه ی اپراتورها
       - B-DE_همه ی اپراتورها
+      - C-DE_همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها
       - A-Lille_همه ی اپراتورها
       - B-Lille_همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -56,14 +66,19 @@ proxy-groups:
     proxies:
       - A-DE_همه ی اپراتورها
       - B-DE_همه ی اپراتورها
+      - C-DE_همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها
       - A-Lille_همه ی اپراتورها
       - B-Lille_همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -72,14 +87,19 @@ proxy-groups:
       - 🎯 全球直连
       - A-DE_همه ی اپراتورها
       - B-DE_همه ی اپراتورها
+      - C-DE_همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها
       - A-Lille_همه ی اپراتورها
       - B-Lille_همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها
   - name: 📲 电报信息
     type: select
     proxies:
@@ -87,14 +107,19 @@ proxy-groups:
       - 🎯 全球直连
       - A-DE_همه ی اپراتورها
       - B-DE_همه ی اپراتورها
+      - C-DE_همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها
       - A-Lille_همه ی اپراتورها
       - B-Lille_همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -102,14 +127,19 @@ proxy-groups:
       - 🚀 节点选择
       - A-DE_همه ی اپراتورها
       - B-DE_همه ی اپراتورها
+      - C-DE_همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها
       - A-Lille_همه ی اپراتورها
       - B-Lille_همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -117,14 +147,19 @@ proxy-groups:
       - 🎯 全球直连
       - A-DE_همه ی اپراتورها
       - B-DE_همه ی اپراتورها
+      - C-DE_همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها
       - A-Lille_همه ی اپراتورها
       - B-Lille_همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,14 +184,19 @@ proxy-groups:
       - ♻️ 自动选择
       - A-DE_همه ی اپراتورها
       - B-DE_همه ی اپراتورها
+      - C-DE_همه ی اپراتورها
       - A-Amsterdam_همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها
       - A-Lille_همه ی اپراتورها
       - B-Lille_همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها
 
 rules:
 # 本地/局域网地址
