@@ -17,37 +17,7 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Kansas_همه ی اپراتورها-همه ی اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+  - name: C-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -61,8 +31,7 @@ proxies:
     ws-opts:
       path: /Amsterdam.kotick.site/speedtest
       headers:
-        host: v2ray.doostankiyan.workers.dev
-    client-fingerprint: chrome
+        host: v2ray.kiyanultraspeed.workers.dev
   - name: A-Lille_همه ی اپراتورها-همه ی اپراتورها
     type: vmess
     server: 50.7.85.219
@@ -76,21 +45,6 @@ proxies:
     network: ws
     ws-opts:
       path: /Lille.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Kansas_همه ی اپراتورها-همه ی اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
@@ -108,6 +62,36 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
+  - name: B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
   - name: B-Lille_همه ی اپراتورها-همه ی اپراتورها
     type: vmess
     server: 50.7.85.219
@@ -123,6 +107,36 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
+  - name: B-Kansas_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: A-Kansas_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
   - name: B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
     type: vmess
     server: 50.7.85.219
@@ -138,38 +152,91 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
+  - name: C-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.kiyanultraspeed.workers.dev
+  - name: C-Lille_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: v2ray.kiyanultraspeed.workers.dev
+  - name: C-Kansas_همه ی اپراتورها-همه ی اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.kiyanultraspeed.workers.dev
 proxy-groups:
   - name: All
     type: select
     proxies:
-      - بهترین پینگ-همه ی اپراتورها
-      - انتخاب-همه ی اپراتورها
-  - name: بهترین پینگ-همه ی اپراتورها
+      - همه اپراتورها-بهترین پینگ
+      - همه اپراتورها-انتخاب
+  - name: همه اپراتورها-بهترین پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
       - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
       - A-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها-همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
-  - name: انتخاب-همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها-همه ی اپراتورها
+  - name: همه اپراتورها-انتخاب
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
       - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+      - C-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
       - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
       - B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - C-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
       - A-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
+      - C-Lille_همه ی اپراتورها-همه ی اپراتورها
       - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
+      - C-Kansas_همه ی اپراتورها-همه ی اپراتورها
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
