@@ -357,9 +357,11 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - همه ی اپراتورها
-      - ایرانسل
-  - name: همه ی اپراتورها
+      - همه اپراتورها-بهترین پینگ
+      - همه اپراتورها-انتخاب
+      - ایرانسل-بهترین پینگ
+      - ایرانسل-انتخاب
+  - name: همه اپراتورها-بهترین پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
@@ -379,7 +381,7 @@ proxy-groups:
       - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
       - C-Kansas_همه ی اپراتورها-همه ی اپراتورها
-  - name: همه ی اپراتورها
+  - name: همه اپراتورها-انتخاب
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
@@ -399,7 +401,7 @@ proxy-groups:
       - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
       - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
       - C-Kansas_همه ی اپراتورها-همه ی اپراتورها
-  - name: ایرانسل
+  - name: ایرانسل-بهترین پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
@@ -413,7 +415,7 @@ proxy-groups:
       - B-DE_ایرانسل_3-ایرانسل
       - B-DE_ایرانسل_1-ایرانسل
       - A-DE_ایرانسل_3-ایرانسل
-  - name: ایرانسل
+  - name: ایرانسل-انتخاب
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
