@@ -17,82 +17,52 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: C-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+  - name: Lille-2-همه اپراتورها
     type: vmess
-    server: 50.7.85.219
+    server: 172.67.180.138
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: Lille.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
+      path: /speedtest
       headers:
-        host: v2ray.kiyanultraspeed.workers.dev
-  - name: A-Lille_همه ی اپراتورها-همه ی اپراتورها
+        host: Lille.bobbykotick.rip
+  - name: Amsterdam-همه اپراتورها
     type: vmess
-    server: 50.7.85.219
+    server: 104.21.59.157
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: Amsterdam.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /Lille.kotick.site/speedtest
+      path: /speedtest
       headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
+        host: Amsterdam.bobbykotick.rip
+  - name: Dusseldorf-همه اپراتورها
     type: vmess
-    server: 50.7.85.219
+    server: 104.21.59.157
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: Dusseldorf.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
+      path: /speedtest
       headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Lille_همه ی اپراتورها-همه ی اپراتورها
+        host: Dusseldorf.bobbykotick.rip
+  - name: B-Lille-همه اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -107,37 +77,22 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: B-Kansas_همه ی اپراتورها-همه ی اپراتورها
+  - name: Amsterdam-2-همه اپراتورها
     type: vmess
-    server: 50.7.85.219
+    server: 172.67.180.138
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: Amsterdam.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /Kansas.kotick.site/speedtest
+      path: /speedtest
       headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Kansas_همه ی اپراتورها-همه ی اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+        host: Amsterdam.bobbykotick.rip
+  - name: B-Dusseldorf-همه اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -152,7 +107,112 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: v2ray.doostankiyan.workers.dev
-  - name: C-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
+  - name: A-Dusseldorf-همه اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Amsterdam-همه اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Kansas-همه اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.doostankiyan.workers.dev
+  - name: C-Kansas-همه اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Kansas.kotick.site/speedtest
+      headers:
+        host: v2ray.kiyanultraspeed.workers.dev
+  - name: Kansas-2-همه اپراتورها
+    type: vmess
+    server: 172.67.180.138
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Kansas.bobbykotick.rip
+  - name: A-Amsterdam-همه اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: Lille-همه اپراتورها
+    type: vmess
+    server: 104.21.59.157
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Lille.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Lille.bobbykotick.rip
+  - name: C-Dusseldorf-همه اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -167,7 +227,7 @@ proxies:
       path: /Dusseldorf.kotick.site/speedtest
       headers:
         host: v2ray.kiyanultraspeed.workers.dev
-  - name: C-Lille_همه ی اپراتورها-همه ی اپراتورها
+  - name: C-Lille-همه اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -182,7 +242,52 @@ proxies:
       path: /Lille.kotick.site/speedtest
       headers:
         host: v2ray.kiyanultraspeed.workers.dev
-  - name: C-Kansas_همه ی اپراتورها-همه ی اپراتورها
+  - name: Dusseldorf-2-همه اپراتورها
+    type: vmess
+    server: 172.67.180.138
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Dusseldorf.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Dusseldorf.bobbykotick.rip
+  - name: A-Lille-همه اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Lille.kotick.site/speedtest
+      headers:
+        host: mci.kiyandoostan1245.workers.dev
+  - name: C-Amsterdam-همه اپراتورها
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        host: v2ray.kiyanultraspeed.workers.dev
+  - name: A-Kansas-همه اپراتورها
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -196,47 +301,78 @@ proxies:
     ws-opts:
       path: /Kansas.kotick.site/speedtest
       headers:
-        host: v2ray.kiyanultraspeed.workers.dev
+        host: mci.kiyandoostan1245.workers.dev
+  - name: Kansas-همه اپراتورها
+    type: vmess
+    server: 104.21.59.157
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Kansas.bobbykotick.rip
 proxy-groups:
   - name: All
     type: select
     proxies:
-      - همه اپراتورها-بهترین پینگ
-      - همه اپراتورها-انتخاب
-  - name: همه اپراتورها-بهترین پینگ
+      - بهترین پینگ-همه اپراتورها
+      - انتخاب-همه اپراتورها
+  - name: بهترین پینگ-همه اپراتورها
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 10
+    interval: 5
     proxies:
-      - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
-      - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
-      - C-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
-      - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - C-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - A-Lille_همه ی اپراتورها-همه ی اپراتورها
-      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
-      - C-Lille_همه ی اپراتورها-همه ی اپراتورها
-      - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
-      - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
-      - C-Kansas_همه ی اپراتورها-همه ی اپراتورها
-  - name: همه اپراتورها-انتخاب
+      - A-Amsterdam-همه اپراتورها
+      - B-Amsterdam-همه اپراتورها
+      - C-Amsterdam-همه اپراتورها
+      - A-Dusseldorf-همه اپراتورها
+      - B-Dusseldorf-همه اپراتورها
+      - C-Dusseldorf-همه اپراتورها
+      - A-Lille-همه اپراتورها
+      - B-Lille-همه اپراتورها
+      - C-Lille-همه اپراتورها
+      - A-Kansas-همه اپراتورها
+      - B-Kansas-همه اپراتورها
+      - C-Kansas-همه اپراتورها
+      - Amsterdam-همه اپراتورها
+      - Amsterdam-2-همه اپراتورها
+      - Dusseldorf-همه اپراتورها
+      - Dusseldorf-2-همه اپراتورها
+      - Lille-همه اپراتورها
+      - Lille-2-همه اپراتورها
+      - Kansas-همه اپراتورها
+      - Kansas-2-همه اپراتورها
+  - name: انتخاب-همه اپراتورها
     type: select
     url: http://clients3.google.com/generate_204
-    interval: 10
+    interval: 5
     proxies:
-      - A-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
-      - B-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
-      - C-Amsterdam_همه ی اپراتورها-همه ی اپراتورها
-      - A-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - B-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - C-Dusseldorf_همه ی اپراتورها-همه ی اپراتورها
-      - A-Lille_همه ی اپراتورها-همه ی اپراتورها
-      - B-Lille_همه ی اپراتورها-همه ی اپراتورها
-      - C-Lille_همه ی اپراتورها-همه ی اپراتورها
-      - A-Kansas_همه ی اپراتورها-همه ی اپراتورها
-      - B-Kansas_همه ی اپراتورها-همه ی اپراتورها
-      - C-Kansas_همه ی اپراتورها-همه ی اپراتورها
+      - A-Amsterdam-همه اپراتورها
+      - B-Amsterdam-همه اپراتورها
+      - C-Amsterdam-همه اپراتورها
+      - A-Dusseldorf-همه اپراتورها
+      - B-Dusseldorf-همه اپراتورها
+      - C-Dusseldorf-همه اپراتورها
+      - A-Lille-همه اپراتورها
+      - B-Lille-همه اپراتورها
+      - C-Lille-همه اپراتورها
+      - A-Kansas-همه اپراتورها
+      - B-Kansas-همه اپراتورها
+      - C-Kansas-همه اپراتورها
+      - Amsterdam-همه اپراتورها
+      - Amsterdam-2-همه اپراتورها
+      - Dusseldorf-همه اپراتورها
+      - Dusseldorf-2-همه اپراتورها
+      - Lille-همه اپراتورها
+      - Lille-2-همه اپراتورها
+      - Kansas-همه اپراتورها
+      - Kansas-2-همه اپراتورها
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
