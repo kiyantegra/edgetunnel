@@ -17,24 +17,9 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: Lille-2-همه اپراتورها
+  - name: Amsterdam-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 172.67.180.138
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: Lille.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        host: Lille.bobbykotick.rip
-  - name: Amsterdam-همه اپراتورها
-    type: vmess
-    server: 104.21.59.157
+    server: kiyan-ultra4.ddns.net
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -47,52 +32,9 @@ proxies:
       path: /speedtest
       headers:
         host: Amsterdam.bobbykotick.rip
-  - name: A-DE-همه اپراتورها
-    type: vless
-    server: 50.7.85.219
-    port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: false
-    servername: edgetunel.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: Dusseldorf-همه اپراتورها
+  - name: Amsterdam-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 104.21.59.157
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: Dusseldorf.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        host: Dusseldorf.bobbykotick.rip
-  - name: B-Lille-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: Amsterdam-2-همه اپراتورها
-    type: vmess
-    server: 172.67.180.138
+    server: kiyan-ultra2.ddns.net
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -105,185 +47,9 @@ proxies:
       path: /speedtest
       headers:
         host: Amsterdam.bobbykotick.rip
-  - name: B-DE-همه اپراتورها
-    type: vless
-    server: 50.7.85.219
-    port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: false
-    servername: edgetunel.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunel.doostankiyan.workers.dev
-    client-fingerprint: chrome
-  - name: B-Dusseldorf-همه اپراتورها
+  - name: Dusseldorf-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: A-Dusseldorf-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: B-Amsterdam-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: B-Kansas-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.doostankiyan.workers.dev
-  - name: C-Kansas-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Kansas.kotick.site/speedtest
-      headers:
-        host: v2ray.kiyanultraspeed.workers.dev
-  - name: Kansas-2-همه اپراتورها
-    type: vmess
-    server: 172.67.180.138
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: Kansas.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        host: Kansas.bobbykotick.rip
-  - name: A-Amsterdam-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Amsterdam.kotick.site/speedtest
-      headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: Lille-همه اپراتورها
-    type: vmess
-    server: 104.21.59.157
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: Lille.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        host: Lille.bobbykotick.rip
-  - name: C-Dusseldorf-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Dusseldorf.kotick.site/speedtest
-      headers:
-        host: v2ray.kiyanultraspeed.workers.dev
-  - name: C-Lille-همه اپراتورها
-    type: vmess
-    server: 50.7.85.219
-    port: 80
-    cipher: auto
-    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
-    network: ws
-    ws-opts:
-      path: /Lille.kotick.site/speedtest
-      headers:
-        host: v2ray.kiyanultraspeed.workers.dev
-  - name: C-DE-همه اپراتورها
-    type: vless
-    server: 50.7.85.219
-    port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: false
-    servername: edgetunel.kiyanultraspeed.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunel.kiyanultraspeed.workers.dev
-    client-fingerprint: chrome
-  - name: Dusseldorf-2-همه اپراتورها
-    type: vmess
-    server: 172.67.180.138
+    server: kiyan-ultra.ddns.net
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -296,22 +62,202 @@ proxies:
       path: /speedtest
       headers:
         host: Dusseldorf.bobbykotick.rip
-  - name: A-Lille-همه اپراتورها
+  - name: Amsterdam-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 50.7.85.219
+    server: kiyan-ultra.ddns.net
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
     skip-cert-verify: true
-    servername: mci.kiyandoostan1245.workers.dev
+    servername: Amsterdam.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /Lille.kotick.site/speedtest
+      path: /speedtest
       headers:
-        host: mci.kiyandoostan1245.workers.dev
-  - name: C-Amsterdam-همه اپراتورها
+        host: Amsterdam.bobbykotick.rip
+  - name: Kansas-1(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Kansas.bobbykotick.rip
+  - name: Lille-4(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra4.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Lille.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Lille.bobbykotick.rip
+  - name: Lille-2(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra2.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Lille.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Lille.bobbykotick.rip
+  - name: Dusseldorf-3(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra3.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Dusseldorf.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Dusseldorf.bobbykotick.rip
+  - name: Lille-1(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Lille.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Lille.bobbykotick.rip
+  - name: Dusseldorf-2(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra2.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Dusseldorf.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Dusseldorf.bobbykotick.rip
+  - name: Amsterdam-3(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra3.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Amsterdam.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Amsterdam.bobbykotick.rip
+  - name: Kansas-2(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra2.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Kansas.bobbykotick.rip
+  - name: Kansas-3(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra3.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Kansas.bobbykotick.rip
+  - name: Lille-3(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra3.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Lille.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Lille.bobbykotick.rip
+  - name: Kansas-4(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra4.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Kansas.bobbykotick.rip
+  - name: Dusseldorf-4(سرعت نامحدود)- سرعت نامحدود
+    type: vmess
+    server: kiyan-ultra4.ddns.net
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: Dusseldorf.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: Dusseldorf.bobbykotick.rip
+  - name: C-Amsterdam_(سرعت محدود)-سرعت محدود
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -326,7 +272,22 @@ proxies:
       path: /Amsterdam.kotick.site/speedtest
       headers:
         host: v2ray.kiyanultraspeed.workers.dev
-  - name: A-Kansas-همه اپراتورها
+  - name: C-Dusseldorf_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
+    port: 80
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
+    tls: false
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
+    network: ws
+    ws-opts:
+      path: /Dusseldorf.kotick.site/speedtest
+      headers:
+        host: v2ray.kiyanultraspeed.workers.dev
+  - name: A-Kansas_(سرعت محدود)-سرعت محدود
     type: vmess
     server: 50.7.85.219
     port: 80
@@ -341,230 +302,192 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         host: mci.kiyandoostan1245.workers.dev
-  - name: Kansas-همه اپراتورها
+  - name: B-Lille_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 104.21.59.157
+    server: 50.7.85.219
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
     alterId: 0
     tls: false
     skip-cert-verify: true
-    servername: Kansas.bobbykotick.rip
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /Lille.kotick.site/speedtest
       headers:
-        host: Kansas.bobbykotick.rip
-  - name: B-DE_ایرانسل_1-ایرانسل
-    type: vless
-    server: 188.114.97.2
+        host: v2ray.doostankiyan.workers.dev
+  - name: B-Amsterdam_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.doostankiyan.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Amsterdam.kotick.site/speedtest
       headers:
-        host: edgetunel.doostankiyan.workers.dev
-    client-fingerprint: chrome
-  - name: A-DE_ایرانسل_2-ایرانسل
-    type: vless
-    server: 172.67.160.6
+        host: v2ray.doostankiyan.workers.dev
+  - name: C-Lille_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyandoostan1245.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Lille.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: A-DE_ایرانسل_3-ایرانسل
-    type: vless
-    server: 104.26.1.120
+        host: v2ray.kiyanultraspeed.workers.dev
+  - name: A-Dusseldorf_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyandoostan1245.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Dusseldorf.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: A-DE_ایرانسل_1-ایرانسل
-    type: vless
-    server: 188.114.97.2
+        host: mci.kiyandoostan1245.workers.dev
+  - name: A-Amsterdam_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyandoostan1245.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Amsterdam.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyandoostan1245.workers.dev
-    client-fingerprint: chrome
-  - name: B-DE_ایرانسل_2-ایرانسل
-    type: vless
-    server: 172.67.160.6
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Kansas_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.doostankiyan.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Kansas.kotick.site/speedtest
       headers:
-        host: edgetunel.doostankiyan.workers.dev
-    client-fingerprint: chrome
-  - name: B-DE_ایرانسل_3-ایرانسل
-    type: vless
-    server: 104.26.1.120
+        host: v2ray.doostankiyan.workers.dev
+  - name: C-Kansas_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.doostankiyan.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Kansas.kotick.site/speedtest
       headers:
-        host: edgetunel.doostankiyan.workers.dev
-    client-fingerprint: chrome
-  - name: C-DE_ایرانسل_3-ایرانسل
-    type: vless
-    server: 104.26.1.120
+        host: v2ray.kiyanultraspeed.workers.dev
+  - name: A-Lille_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyanultraspeed.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Lille.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyanultraspeed.workers.dev
-    client-fingerprint: chrome
-  - name: C-DE_ایرانسل_2-ایرانسل
-    type: vless
-    server: 172.67.160.6
+        host: mci.kiyandoostan1245.workers.dev
+  - name: B-Dusseldorf_(سرعت محدود)-سرعت محدود
+    type: vmess
+    server: 50.7.85.219
     port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
+    cipher: auto
+    uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
+    alterId: 0
     tls: false
-    servername: edgetunel.kiyanultraspeed.workers.dev
+    skip-cert-verify: true
+    servername: mci.kiyandoostan1245.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /Dusseldorf.kotick.site/speedtest
       headers:
-        host: edgetunel.kiyanultraspeed.workers.dev
-    client-fingerprint: chrome
-  - name: C-DE_ایرانسل_1-ایرانسل
-    type: vless
-    server: 188.114.97.2
-    port: 80
-    uuid: b649654d-fb97-4271-860d-4d085d195a8e
-    tls: false
-    servername: edgetunel.kiyanultraspeed.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunel.kiyanultraspeed.workers.dev
-    client-fingerprint: chrome
+        host: v2ray.doostankiyan.workers.dev
 proxy-groups:
   - name: All
     type: select
     proxies:
-      - بهترین پینگ-همه اپراتورها
-      - بهترین پینگ-ایرانسل
-      - انتخاب-همه اپراتورها
-      - انتخاب-ایرانسل
-  - name: بهترین پینگ-همه اپراتورها
+      - سرعت نامحدود
+      - سرعت محدود
+  - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 10
     proxies:
-      - A-DE-همه اپراتورها
-      - B-DE-همه اپراتورها
-      - C-DE-همه اپراتورها
-      - A-Amsterdam-همه اپراتورها
-      - B-Amsterdam-همه اپراتورها
-      - C-Amsterdam-همه اپراتورها
-      - A-Dusseldorf-همه اپراتورها
-      - B-Dusseldorf-همه اپراتورها
-      - C-Dusseldorf-همه اپراتورها
-      - A-Lille-همه اپراتورها
-      - B-Lille-همه اپراتورها
-      - C-Lille-همه اپراتورها
-      - A-Kansas-همه اپراتورها
-      - B-Kansas-همه اپراتورها
-      - C-Kansas-همه اپراتورها
-      - Amsterdam-همه اپراتورها
-      - Amsterdam-2-همه اپراتورها
-      - Dusseldorf-همه اپراتورها
-      - Dusseldorf-2-همه اپراتورها
-      - Lille-همه اپراتورها
-      - Lille-2-همه اپراتورها
-      - Kansas-همه اپراتورها
-      - Kansas-2-همه اپراتورها
-  - name: بهترین پینگ-ایرانسل
+      - سرعت نامحدود
+      - سرعت محدود
+  - name: سرعت نامحدود
     type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 10
     proxies:
-      - B-DE_ایرانسل_1-ایرانسل
-      - A-DE_ایرانسل_2-ایرانسل
-      - A-DE_ایرانسل_3-ایرانسل
-      - A-DE_ایرانسل_1-ایرانسل
-      - B-DE_ایرانسل_2-ایرانسل
-      - B-DE_ایرانسل_3-ایرانسل
-      - C-DE_ایرانسل_3-ایرانسل
-      - C-DE_ایرانسل_2-ایرانسل
-      - C-DE_ایرانسل_1-ایرانسل
-  - name: انتخاب-همه اپراتورها
-    type: select
+      - Amsterdam-4(سرعت نامحدود)- سرعت نامحدود
+      - Amsterdam-2(سرعت نامحدود)- سرعت نامحدود
+      - Dusseldorf-1(سرعت نامحدود)- سرعت نامحدود
+      - Amsterdam-1(سرعت نامحدود)- سرعت نامحدود
+      - Kansas-1(سرعت نامحدود)- سرعت نامحدود
+      - Lille-4(سرعت نامحدود)- سرعت نامحدود
+      - Lille-2(سرعت نامحدود)- سرعت نامحدود
+      - Dusseldorf-3(سرعت نامحدود)- سرعت نامحدود
+      - Lille-1(سرعت نامحدود)- سرعت نامحدود
+      - Dusseldorf-2(سرعت نامحدود)- سرعت نامحدود
+      - Amsterdam-3(سرعت نامحدود)- سرعت نامحدود
+      - Kansas-2(سرعت نامحدود)- سرعت نامحدود
+      - Kansas-3(سرعت نامحدود)- سرعت نامحدود
+      - Lille-3(سرعت نامحدود)- سرعت نامحدود
+      - Kansas-4(سرعت نامحدود)- سرعت نامحدود
+      - Dusseldorf-4(سرعت نامحدود)- سرعت نامحدود
+  - name: سرعت محدود
+    type: url-test
     url: http://clients3.google.com/generate_204
-    interval: 5
+    interval: 10
     proxies:
-      - A-DE-همه اپراتورها
-      - B-DE-همه اپراتورها
-      - C-DE-همه اپراتورها
-      - A-Amsterdam-همه اپراتورها
-      - B-Amsterdam-همه اپراتورها
-      - C-Amsterdam-همه اپراتورها
-      - A-Dusseldorf-همه اپراتورها
-      - B-Dusseldorf-همه اپراتورها
-      - C-Dusseldorf-همه اپراتورها
-      - A-Lille-همه اپراتورها
-      - B-Lille-همه اپراتورها
-      - C-Lille-همه اپراتورها
-      - A-Kansas-همه اپراتورها
-      - B-Kansas-همه اپراتورها
-      - C-Kansas-همه اپراتورها
-      - Amsterdam-همه اپراتورها
-      - Amsterdam-2-همه اپراتورها
-      - Dusseldorf-همه اپراتورها
-      - Dusseldorf-2-همه اپراتورها
-      - Lille-همه اپراتورها
-      - Lille-2-همه اپراتورها
-      - Kansas-همه اپراتورها
-      - Kansas-2-همه اپراتورها
-  - name: انتخاب-ایرانسل
-    type: select
-    url: http://clients3.google.com/generate_204
-    interval: 5
-    proxies:
-      - B-DE_ایرانسل_1-ایرانسل
-      - A-DE_ایرانسل_2-ایرانسل
-      - A-DE_ایرانسل_3-ایرانسل
-      - A-DE_ایرانسل_1-ایرانسل
-      - B-DE_ایرانسل_2-ایرانسل
-      - B-DE_ایرانسل_3-ایرانسل
-      - C-DE_ایرانسل_3-ایرانسل
-      - C-DE_ایرانسل_2-ایرانسل
-      - C-DE_ایرانسل_1-ایرانسل
+      - C-Amsterdam_(سرعت محدود)-سرعت محدود
+      - C-Dusseldorf_(سرعت محدود)-سرعت محدود
+      - A-Kansas_(سرعت محدود)-سرعت محدود
+      - B-Lille_(سرعت محدود)-سرعت محدود
+      - B-Amsterdam_(سرعت محدود)-سرعت محدود
+      - C-Lille_(سرعت محدود)-سرعت محدود
+      - A-Dusseldorf_(سرعت محدود)-سرعت محدود
+      - A-Amsterdam_(سرعت محدود)-سرعت محدود
+      - B-Kansas_(سرعت محدود)-سرعت محدود
+      - C-Kansas_(سرعت محدود)-سرعت محدود
+      - A-Lille_(سرعت محدود)-سرعت محدود
+      - B-Dusseldorf_(سرعت محدود)-سرعت محدود
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
