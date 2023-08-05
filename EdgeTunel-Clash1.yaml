@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：23-07-2023 17:27:45
+# 客户端：Clash
+# 创建时间：06-08-2023 00:51:46
 # 使用模版：V2RaySE 默认模版
-# 节点数量：23
+# 节点数量：16
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -22,200 +21,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"A-DE","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyandoostan1245.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"B-DE","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.doostankiyan.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.doostankiyan.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"C-DE","type":"vless","server":"50.7.85.219","port":80,"uuid":"b649654d-fb97-4271-860d-4d085d195a8e","tls":false,"servername":"edgetunel.kiyanultraspeed.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"edgetunel.kiyanultraspeed.workers.dev"}},"client-fingerprint":"chrome"}
-  - {"name":"A-Amsterdam","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Amsterdam","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"C-Amsterdam","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
-  - {"name":"A-Dusseldorf","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Dusseldorf","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"C-Dusseldorf","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
-  - {"name":"A-Lille","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Lille","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"C-Lille","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
-  - {"name":"A-Kansas","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"mci.kiyandoostan1245.workers.dev"}}}
-  - {"name":"B-Kansas","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.doostankiyan.workers.dev"}}}
-  - {"name":"C-Kansas","type":"vmess","server":"50.7.85.219","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"mci.kiyandoostan1245.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"v2ray.kiyanultraspeed.workers.dev"}}}
-  - {"name":"Amsterdam","type":"vmess","server":"104.21.59.157","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
-  - {"name":"Amsterdam-2","type":"vmess","server":"172.67.180.138","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
-  - {"name":"Dusseldorf","type":"vmess","server":"104.21.59.157","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
-  - {"name":"Dusseldorf-2","type":"vmess","server":"172.67.180.138","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
-  - {"name":"Lille","type":"vmess","server":"104.21.59.157","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
-  - {"name":"Lille-2","type":"vmess","server":"172.67.180.138","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
-  - {"name":"Kansas","type":"vmess","server":"104.21.59.157","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
-  - {"name":"Kansas-2","type":"vmess","server":"172.67.180.138","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
+  - {"name":"Lille-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
+  - {"name":"Kansas-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
+  - {"name":"Dusseldorf-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
+  - {"name":"Amsterdam-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
+  - {"name":"Lille-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
+  - {"name":"Kansas-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
+  - {"name":"Dusseldorf-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
+  - {"name":"Amsterdam-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
+  - {"name":"Lille-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
+  - {"name":"Kansas-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
+  - {"name":"Dusseldorf-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
+  - {"name":"Amsterdam-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
+  - {"name":"Lille-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
+  - {"name":"Kansas-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
+  - {"name":"Dusseldorf-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
+  - {"name":"Amsterdam-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - A-DE
-      - B-DE
-      - C-DE
-      - A-Amsterdam
-      - B-Amsterdam
-      - C-Amsterdam
-      - A-Dusseldorf
-      - B-Dusseldorf
-      - C-Dusseldorf
-      - A-Lille
-      - B-Lille
-      - C-Lille
-      - A-Kansas
-      - B-Kansas
-      - C-Kansas
-      - Amsterdam
-      - Amsterdam-2
-      - Dusseldorf
-      - Dusseldorf-2
-      - Lille
-      - Lille-2
-      - Kansas
-      - Kansas-2
+      - Lille-1(سرعت نامحدود)
+      - Kansas-1(سرعت نامحدود)
+      - Dusseldorf-1(سرعت نامحدود)
+      - Amsterdam-1(سرعت نامحدود)
+      - Lille-2(سرعت نامحدود)
+      - Kansas-2(سرعت نامحدود)
+      - Dusseldorf-2(سرعت نامحدود)
+      - Amsterdam-2(سرعت نامحدود)
+      - Lille-3(سرعت نامحدود)
+      - Kansas-3(سرعت نامحدود)
+      - Dusseldorf-3(سرعت نامحدود)
+      - Amsterdam-3(سرعت نامحدود)
+      - Lille-4(سرعت نامحدود)
+      - Kansas-4(سرعت نامحدود)
+      - Dusseldorf-4(سرعت نامحدود)
+      - Amsterdam-4(سرعت نامحدود)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - A-DE
-      - B-DE
-      - C-DE
-      - A-Amsterdam
-      - B-Amsterdam
-      - C-Amsterdam
-      - A-Dusseldorf
-      - B-Dusseldorf
-      - C-Dusseldorf
-      - A-Lille
-      - B-Lille
-      - C-Lille
-      - A-Kansas
-      - B-Kansas
-      - C-Kansas
-      - Amsterdam
-      - Amsterdam-2
-      - Dusseldorf
-      - Dusseldorf-2
-      - Lille
-      - Lille-2
-      - Kansas
-      - Kansas-2
+      - Lille-1(سرعت نامحدود)
+      - Kansas-1(سرعت نامحدود)
+      - Dusseldorf-1(سرعت نامحدود)
+      - Amsterdam-1(سرعت نامحدود)
+      - Lille-2(سرعت نامحدود)
+      - Kansas-2(سرعت نامحدود)
+      - Dusseldorf-2(سرعت نامحدود)
+      - Amsterdam-2(سرعت نامحدود)
+      - Lille-3(سرعت نامحدود)
+      - Kansas-3(سرعت نامحدود)
+      - Dusseldorf-3(سرعت نامحدود)
+      - Amsterdam-3(سرعت نامحدود)
+      - Lille-4(سرعت نامحدود)
+      - Kansas-4(سرعت نامحدود)
+      - Dusseldorf-4(سرعت نامحدود)
+      - Amsterdam-4(سرعت نامحدود)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - A-DE
-      - B-DE
-      - C-DE
-      - A-Amsterdam
-      - B-Amsterdam
-      - C-Amsterdam
-      - A-Dusseldorf
-      - B-Dusseldorf
-      - C-Dusseldorf
-      - A-Lille
-      - B-Lille
-      - C-Lille
-      - A-Kansas
-      - B-Kansas
-      - C-Kansas
-      - Amsterdam
-      - Amsterdam-2
-      - Dusseldorf
-      - Dusseldorf-2
-      - Lille
-      - Lille-2
-      - Kansas
-      - Kansas-2
+      - Lille-1(سرعت نامحدود)
+      - Kansas-1(سرعت نامحدود)
+      - Dusseldorf-1(سرعت نامحدود)
+      - Amsterdam-1(سرعت نامحدود)
+      - Lille-2(سرعت نامحدود)
+      - Kansas-2(سرعت نامحدود)
+      - Dusseldorf-2(سرعت نامحدود)
+      - Amsterdam-2(سرعت نامحدود)
+      - Lille-3(سرعت نامحدود)
+      - Kansas-3(سرعت نامحدود)
+      - Dusseldorf-3(سرعت نامحدود)
+      - Amsterdam-3(سرعت نامحدود)
+      - Lille-4(سرعت نامحدود)
+      - Kansas-4(سرعت نامحدود)
+      - Dusseldorf-4(سرعت نامحدود)
+      - Amsterdam-4(سرعت نامحدود)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-DE
-      - B-DE
-      - C-DE
-      - A-Amsterdam
-      - B-Amsterdam
-      - C-Amsterdam
-      - A-Dusseldorf
-      - B-Dusseldorf
-      - C-Dusseldorf
-      - A-Lille
-      - B-Lille
-      - C-Lille
-      - A-Kansas
-      - B-Kansas
-      - C-Kansas
-      - Amsterdam
-      - Amsterdam-2
-      - Dusseldorf
-      - Dusseldorf-2
-      - Lille
-      - Lille-2
-      - Kansas
-      - Kansas-2
+      - Lille-1(سرعت نامحدود)
+      - Kansas-1(سرعت نامحدود)
+      - Dusseldorf-1(سرعت نامحدود)
+      - Amsterdam-1(سرعت نامحدود)
+      - Lille-2(سرعت نامحدود)
+      - Kansas-2(سرعت نامحدود)
+      - Dusseldorf-2(سرعت نامحدود)
+      - Amsterdam-2(سرعت نامحدود)
+      - Lille-3(سرعت نامحدود)
+      - Kansas-3(سرعت نامحدود)
+      - Dusseldorf-3(سرعت نامحدود)
+      - Amsterdam-3(سرعت نامحدود)
+      - Lille-4(سرعت نامحدود)
+      - Kansas-4(سرعت نامحدود)
+      - Dusseldorf-4(سرعت نامحدود)
+      - Amsterdam-4(سرعت نامحدود)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - A-DE
-      - B-DE
-      - C-DE
-      - A-Amsterdam
-      - B-Amsterdam
-      - C-Amsterdam
-      - A-Dusseldorf
-      - B-Dusseldorf
-      - C-Dusseldorf
-      - A-Lille
-      - B-Lille
-      - C-Lille
-      - A-Kansas
-      - B-Kansas
-      - C-Kansas
-      - Amsterdam
-      - Amsterdam-2
-      - Dusseldorf
-      - Dusseldorf-2
-      - Lille
-      - Lille-2
-      - Kansas
-      - Kansas-2
+      - Lille-1(سرعت نامحدود)
+      - Kansas-1(سرعت نامحدود)
+      - Dusseldorf-1(سرعت نامحدود)
+      - Amsterdam-1(سرعت نامحدود)
+      - Lille-2(سرعت نامحدود)
+      - Kansas-2(سرعت نامحدود)
+      - Dusseldorf-2(سرعت نامحدود)
+      - Amsterdam-2(سرعت نامحدود)
+      - Lille-3(سرعت نامحدود)
+      - Kansas-3(سرعت نامحدود)
+      - Dusseldorf-3(سرعت نامحدود)
+      - Amsterdam-3(سرعت نامحدود)
+      - Lille-4(سرعت نامحدود)
+      - Kansas-4(سرعت نامحدود)
+      - Dusseldorf-4(سرعت نامحدود)
+      - Amsterdam-4(سرعت نامحدود)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - A-DE
-      - B-DE
-      - C-DE
-      - A-Amsterdam
-      - B-Amsterdam
-      - C-Amsterdam
-      - A-Dusseldorf
-      - B-Dusseldorf
-      - C-Dusseldorf
-      - A-Lille
-      - B-Lille
-      - C-Lille
-      - A-Kansas
-      - B-Kansas
-      - C-Kansas
-      - Amsterdam
-      - Amsterdam-2
-      - Dusseldorf
-      - Dusseldorf-2
-      - Lille
-      - Lille-2
-      - Kansas
-      - Kansas-2
+      - Lille-1(سرعت نامحدود)
+      - Kansas-1(سرعت نامحدود)
+      - Dusseldorf-1(سرعت نامحدود)
+      - Amsterdam-1(سرعت نامحدود)
+      - Lille-2(سرعت نامحدود)
+      - Kansas-2(سرعت نامحدود)
+      - Dusseldorf-2(سرعت نامحدود)
+      - Amsterdam-2(سرعت نامحدود)
+      - Lille-3(سرعت نامحدود)
+      - Kansas-3(سرعت نامحدود)
+      - Dusseldorf-3(سرعت نامحدود)
+      - Amsterdam-3(سرعت نامحدود)
+      - Lille-4(سرعت نامحدود)
+      - Kansas-4(سرعت نامحدود)
+      - Dusseldorf-4(سرعت نامحدود)
+      - Amsterdam-4(سرعت نامحدود)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -238,29 +188,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - A-DE
-      - B-DE
-      - C-DE
-      - A-Amsterdam
-      - B-Amsterdam
-      - C-Amsterdam
-      - A-Dusseldorf
-      - B-Dusseldorf
-      - C-Dusseldorf
-      - A-Lille
-      - B-Lille
-      - C-Lille
-      - A-Kansas
-      - B-Kansas
-      - C-Kansas
-      - Amsterdam
-      - Amsterdam-2
-      - Dusseldorf
-      - Dusseldorf-2
-      - Lille
-      - Lille-2
-      - Kansas
-      - Kansas-2
+      - Lille-1(سرعت نامحدود)
+      - Kansas-1(سرعت نامحدود)
+      - Dusseldorf-1(سرعت نامحدود)
+      - Amsterdam-1(سرعت نامحدود)
+      - Lille-2(سرعت نامحدود)
+      - Kansas-2(سرعت نامحدود)
+      - Dusseldorf-2(سرعت نامحدود)
+      - Amsterdam-2(سرعت نامحدود)
+      - Lille-3(سرعت نامحدود)
+      - Kansas-3(سرعت نامحدود)
+      - Dusseldorf-3(سرعت نامحدود)
+      - Amsterdam-3(سرعت نامحدود)
+      - Lille-4(سرعت نامحدود)
+      - Kansas-4(سرعت نامحدود)
+      - Dusseldorf-4(سرعت نامحدود)
+      - Amsterdam-4(سرعت نامحدود)
 
 rules:
 # 本地/局域网地址
