@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: Amsterdam-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra4.ddns.net
+    server: 45.87.175.9
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -34,7 +34,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Amsterdam-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra2.ddns.net
+    server: 203.28.8.23
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -49,7 +49,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Dusseldorf-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra.ddns.net
+    server: 203.28.8.173
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -64,7 +64,7 @@ proxies:
         host: Dusseldorf.bobbykotick.rip
   - name: Amsterdam-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra.ddns.net
+    server: 203.28.8.173
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -79,7 +79,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Kansas-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra.ddns.net
+    server: 203.28.8.173
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -94,7 +94,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Lille-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra4.ddns.net
+    server: 45.87.175.9
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -109,7 +109,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Lille-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra2.ddns.net
+    server: 203.28.8.23
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -124,7 +124,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Dusseldorf-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra3.ddns.net
+    server: 66.81.247.133
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -139,7 +139,7 @@ proxies:
         host: Dusseldorf.bobbykotick.rip
   - name: Lille-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra.ddns.net
+    server: 203.28.8.173
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -154,7 +154,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Dusseldorf-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra2.ddns.net
+    server: 203.28.8.23
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -169,7 +169,7 @@ proxies:
         host: Dusseldorf.bobbykotick.rip
   - name: Amsterdam-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra3.ddns.net
+    server: 66.81.247.133
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -184,7 +184,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Kansas-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra2.ddns.net
+    server: 203.28.8.23
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -199,7 +199,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Kansas-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra3.ddns.net
+    server: 66.81.247.133
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -214,7 +214,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Lille-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra3.ddns.net
+    server: 66.81.247.133
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -229,7 +229,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Kansas-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra4.ddns.net
+    server: 45.87.175.9
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -244,7 +244,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Dusseldorf-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: kiyan-ultra4.ddns.net
+    server: 45.87.175.9
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
