@@ -177,9 +177,9 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - url-Tegra Tunnel
-      - selec-Tegra Tunnel
-  - name: url-Tegra Tunnel
+      - تست پینگ
+      - انتخاب
+  - name: تست پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
@@ -196,7 +196,7 @@ proxy-groups:
       - A-Tegra Tunnel6 TLS-Tegra Tunnel
       - C-Tegra Tunnel1 TLS-Tegra Tunnel
       - A-Tegra Tunnel5 TLS-Tegra Tunnel
-  - name: selec-Tegra Tunnel
+  - name: انتخاب
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
