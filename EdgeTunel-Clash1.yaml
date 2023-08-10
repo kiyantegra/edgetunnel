@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：06-08-2023 00:51:46
+# 客户端：Clash.Meta
+# 创建时间：10-08-2023 18:52:45
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：12
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -21,151 +22,123 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"Lille-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
-  - {"name":"Kansas-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
-  - {"name":"Dusseldorf-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
-  - {"name":"Amsterdam-1(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
-  - {"name":"Lille-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
-  - {"name":"Kansas-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
-  - {"name":"Dusseldorf-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
-  - {"name":"Amsterdam-2(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra2.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
-  - {"name":"Lille-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
-  - {"name":"Kansas-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
-  - {"name":"Dusseldorf-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
-  - {"name":"Amsterdam-3(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra3.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
-  - {"name":"Lille-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Lille.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
-  - {"name":"Kansas-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Kansas.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
-  - {"name":"Dusseldorf-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Dusseldorf.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}}}
-  - {"name":"Amsterdam-4(سرعت نامحدود)","type":"vmess","server":"kiyan-ultra4.ddns.net","port":80,"cipher":"auto","uuid":"EACA9FBE-573D-410C-9B29-727B1950A3C1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"Amsterdam.bobbykotick.rip","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
+  - {"name":"A-Tegra Tunnel1 TLS","type":"vless","server":"203.28.8.173","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"gt.rtx.e2.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gt.rtx.e2.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"C-Tegra Tunnel1 TLS","type":"vless","server":"203.28.8.173","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"amd.afm.e2.mkjhuhd.site","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.afm.e2.mkjhuhd.site"}},"client-fingerprint":"chrome"}
+  - {"name":"A-Tegra Tunnel2 TLS","type":"vless","server":"203.28.8.23","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"gt.rtx.e2.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gt.rtx.e2.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"C-Tegra Tunnel2 TLS","type":"vless","server":"203.28.8.23","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"amd.afm.e2.mkjhuhd.site","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.afm.e2.mkjhuhd.site"}},"client-fingerprint":"chrome"}
+  - {"name":"A-Tegra Tunnel3 TLS","type":"vless","server":"66.81.247.133","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"gt.rtx.e2.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gt.rtx.e2.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"C-Tegra Tunnel3 TLS","type":"vless","server":"66.81.247.133","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"amd.afm.e2.mkjhuhd.site","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.afm.e2.mkjhuhd.site"}},"client-fingerprint":"chrome"}
+  - {"name":"A-Tegra Tunnel4 TLS","type":"vless","server":"45.87.175.9","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"gt.rtx.e2.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gt.rtx.e2.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"C-Tegra Tunnel4 TLS","type":"vless","server":"45.87.175.9","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"amd.afm.e2.mkjhuhd.site","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.afm.e2.mkjhuhd.site"}},"client-fingerprint":"chrome"}
+  - {"name":"A-Tegra Tunnel5 TLS","type":"vless","server":"185.18.250.111","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"gt.rtx.e2.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gt.rtx.e2.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"C-Tegra Tunnel5 TLS","type":"vless","server":"185.18.250.111","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"amd.afm.e2.mkjhuhd.site","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.afm.e2.mkjhuhd.site"}},"client-fingerprint":"chrome"}
+  - {"name":"A-Tegra Tunnel6 TLS","type":"vless","server":"154.84.175.82","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"gt.rtx.e2.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gt.rtx.e2.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"C-Tegra Tunnel6 TLS","type":"vless","server":"154.84.175.82","port":443,"uuid":"bd418edb-1a56-44b9-b317-9ec4a711931d","tls":true,"servername":"amd.afm.e2.mkjhuhd.site","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.afm.e2.mkjhuhd.site"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Lille-1(سرعت نامحدود)
-      - Kansas-1(سرعت نامحدود)
-      - Dusseldorf-1(سرعت نامحدود)
-      - Amsterdam-1(سرعت نامحدود)
-      - Lille-2(سرعت نامحدود)
-      - Kansas-2(سرعت نامحدود)
-      - Dusseldorf-2(سرعت نامحدود)
-      - Amsterdam-2(سرعت نامحدود)
-      - Lille-3(سرعت نامحدود)
-      - Kansas-3(سرعت نامحدود)
-      - Dusseldorf-3(سرعت نامحدود)
-      - Amsterdam-3(سرعت نامحدود)
-      - Lille-4(سرعت نامحدود)
-      - Kansas-4(سرعت نامحدود)
-      - Dusseldorf-4(سرعت نامحدود)
-      - Amsterdam-4(سرعت نامحدود)
+      - A-Tegra Tunnel1 TLS
+      - C-Tegra Tunnel1 TLS
+      - A-Tegra Tunnel2 TLS
+      - C-Tegra Tunnel2 TLS
+      - A-Tegra Tunnel3 TLS
+      - C-Tegra Tunnel3 TLS
+      - A-Tegra Tunnel4 TLS
+      - C-Tegra Tunnel4 TLS
+      - A-Tegra Tunnel5 TLS
+      - C-Tegra Tunnel5 TLS
+      - A-Tegra Tunnel6 TLS
+      - C-Tegra Tunnel6 TLS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Lille-1(سرعت نامحدود)
-      - Kansas-1(سرعت نامحدود)
-      - Dusseldorf-1(سرعت نامحدود)
-      - Amsterdam-1(سرعت نامحدود)
-      - Lille-2(سرعت نامحدود)
-      - Kansas-2(سرعت نامحدود)
-      - Dusseldorf-2(سرعت نامحدود)
-      - Amsterdam-2(سرعت نامحدود)
-      - Lille-3(سرعت نامحدود)
-      - Kansas-3(سرعت نامحدود)
-      - Dusseldorf-3(سرعت نامحدود)
-      - Amsterdam-3(سرعت نامحدود)
-      - Lille-4(سرعت نامحدود)
-      - Kansas-4(سرعت نامحدود)
-      - Dusseldorf-4(سرعت نامحدود)
-      - Amsterdam-4(سرعت نامحدود)
+      - A-Tegra Tunnel1 TLS
+      - C-Tegra Tunnel1 TLS
+      - A-Tegra Tunnel2 TLS
+      - C-Tegra Tunnel2 TLS
+      - A-Tegra Tunnel3 TLS
+      - C-Tegra Tunnel3 TLS
+      - A-Tegra Tunnel4 TLS
+      - C-Tegra Tunnel4 TLS
+      - A-Tegra Tunnel5 TLS
+      - C-Tegra Tunnel5 TLS
+      - A-Tegra Tunnel6 TLS
+      - C-Tegra Tunnel6 TLS
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Lille-1(سرعت نامحدود)
-      - Kansas-1(سرعت نامحدود)
-      - Dusseldorf-1(سرعت نامحدود)
-      - Amsterdam-1(سرعت نامحدود)
-      - Lille-2(سرعت نامحدود)
-      - Kansas-2(سرعت نامحدود)
-      - Dusseldorf-2(سرعت نامحدود)
-      - Amsterdam-2(سرعت نامحدود)
-      - Lille-3(سرعت نامحدود)
-      - Kansas-3(سرعت نامحدود)
-      - Dusseldorf-3(سرعت نامحدود)
-      - Amsterdam-3(سرعت نامحدود)
-      - Lille-4(سرعت نامحدود)
-      - Kansas-4(سرعت نامحدود)
-      - Dusseldorf-4(سرعت نامحدود)
-      - Amsterdam-4(سرعت نامحدود)
+      - A-Tegra Tunnel1 TLS
+      - C-Tegra Tunnel1 TLS
+      - A-Tegra Tunnel2 TLS
+      - C-Tegra Tunnel2 TLS
+      - A-Tegra Tunnel3 TLS
+      - C-Tegra Tunnel3 TLS
+      - A-Tegra Tunnel4 TLS
+      - C-Tegra Tunnel4 TLS
+      - A-Tegra Tunnel5 TLS
+      - C-Tegra Tunnel5 TLS
+      - A-Tegra Tunnel6 TLS
+      - C-Tegra Tunnel6 TLS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Lille-1(سرعت نامحدود)
-      - Kansas-1(سرعت نامحدود)
-      - Dusseldorf-1(سرعت نامحدود)
-      - Amsterdam-1(سرعت نامحدود)
-      - Lille-2(سرعت نامحدود)
-      - Kansas-2(سرعت نامحدود)
-      - Dusseldorf-2(سرعت نامحدود)
-      - Amsterdam-2(سرعت نامحدود)
-      - Lille-3(سرعت نامحدود)
-      - Kansas-3(سرعت نامحدود)
-      - Dusseldorf-3(سرعت نامحدود)
-      - Amsterdam-3(سرعت نامحدود)
-      - Lille-4(سرعت نامحدود)
-      - Kansas-4(سرعت نامحدود)
-      - Dusseldorf-4(سرعت نامحدود)
-      - Amsterdam-4(سرعت نامحدود)
+      - A-Tegra Tunnel1 TLS
+      - C-Tegra Tunnel1 TLS
+      - A-Tegra Tunnel2 TLS
+      - C-Tegra Tunnel2 TLS
+      - A-Tegra Tunnel3 TLS
+      - C-Tegra Tunnel3 TLS
+      - A-Tegra Tunnel4 TLS
+      - C-Tegra Tunnel4 TLS
+      - A-Tegra Tunnel5 TLS
+      - C-Tegra Tunnel5 TLS
+      - A-Tegra Tunnel6 TLS
+      - C-Tegra Tunnel6 TLS
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Lille-1(سرعت نامحدود)
-      - Kansas-1(سرعت نامحدود)
-      - Dusseldorf-1(سرعت نامحدود)
-      - Amsterdam-1(سرعت نامحدود)
-      - Lille-2(سرعت نامحدود)
-      - Kansas-2(سرعت نامحدود)
-      - Dusseldorf-2(سرعت نامحدود)
-      - Amsterdam-2(سرعت نامحدود)
-      - Lille-3(سرعت نامحدود)
-      - Kansas-3(سرعت نامحدود)
-      - Dusseldorf-3(سرعت نامحدود)
-      - Amsterdam-3(سرعت نامحدود)
-      - Lille-4(سرعت نامحدود)
-      - Kansas-4(سرعت نامحدود)
-      - Dusseldorf-4(سرعت نامحدود)
-      - Amsterdam-4(سرعت نامحدود)
+      - A-Tegra Tunnel1 TLS
+      - C-Tegra Tunnel1 TLS
+      - A-Tegra Tunnel2 TLS
+      - C-Tegra Tunnel2 TLS
+      - A-Tegra Tunnel3 TLS
+      - C-Tegra Tunnel3 TLS
+      - A-Tegra Tunnel4 TLS
+      - C-Tegra Tunnel4 TLS
+      - A-Tegra Tunnel5 TLS
+      - C-Tegra Tunnel5 TLS
+      - A-Tegra Tunnel6 TLS
+      - C-Tegra Tunnel6 TLS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Lille-1(سرعت نامحدود)
-      - Kansas-1(سرعت نامحدود)
-      - Dusseldorf-1(سرعت نامحدود)
-      - Amsterdam-1(سرعت نامحدود)
-      - Lille-2(سرعت نامحدود)
-      - Kansas-2(سرعت نامحدود)
-      - Dusseldorf-2(سرعت نامحدود)
-      - Amsterdam-2(سرعت نامحدود)
-      - Lille-3(سرعت نامحدود)
-      - Kansas-3(سرعت نامحدود)
-      - Dusseldorf-3(سرعت نامحدود)
-      - Amsterdam-3(سرعت نامحدود)
-      - Lille-4(سرعت نامحدود)
-      - Kansas-4(سرعت نامحدود)
-      - Dusseldorf-4(سرعت نامحدود)
-      - Amsterdam-4(سرعت نامحدود)
+      - A-Tegra Tunnel1 TLS
+      - C-Tegra Tunnel1 TLS
+      - A-Tegra Tunnel2 TLS
+      - C-Tegra Tunnel2 TLS
+      - A-Tegra Tunnel3 TLS
+      - C-Tegra Tunnel3 TLS
+      - A-Tegra Tunnel4 TLS
+      - C-Tegra Tunnel4 TLS
+      - A-Tegra Tunnel5 TLS
+      - C-Tegra Tunnel5 TLS
+      - A-Tegra Tunnel6 TLS
+      - C-Tegra Tunnel6 TLS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,22 +161,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Lille-1(سرعت نامحدود)
-      - Kansas-1(سرعت نامحدود)
-      - Dusseldorf-1(سرعت نامحدود)
-      - Amsterdam-1(سرعت نامحدود)
-      - Lille-2(سرعت نامحدود)
-      - Kansas-2(سرعت نامحدود)
-      - Dusseldorf-2(سرعت نامحدود)
-      - Amsterdam-2(سرعت نامحدود)
-      - Lille-3(سرعت نامحدود)
-      - Kansas-3(سرعت نامحدود)
-      - Dusseldorf-3(سرعت نامحدود)
-      - Amsterdam-3(سرعت نامحدود)
-      - Lille-4(سرعت نامحدود)
-      - Kansas-4(سرعت نامحدود)
-      - Dusseldorf-4(سرعت نامحدود)
-      - Amsterdam-4(سرعت نامحدود)
+      - A-Tegra Tunnel1 TLS
+      - C-Tegra Tunnel1 TLS
+      - A-Tegra Tunnel2 TLS
+      - C-Tegra Tunnel2 TLS
+      - A-Tegra Tunnel3 TLS
+      - C-Tegra Tunnel3 TLS
+      - A-Tegra Tunnel4 TLS
+      - C-Tegra Tunnel4 TLS
+      - A-Tegra Tunnel5 TLS
+      - C-Tegra Tunnel5 TLS
+      - A-Tegra Tunnel6 TLS
+      - C-Tegra Tunnel6 TLS
 
 rules:
 # 本地/局域网地址
