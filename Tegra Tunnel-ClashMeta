@@ -177,41 +177,53 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - تست پینگ-Tegra Tunnel
-      - انتخاب-Tegra Tunnel
-  - name: تست پینگ-Tegra Tunnel
+      - All - UrlTest
+      - All - Fallback
+      - All - LoadBalance(ch)
+      - All - LoadBalance(rr)
+      - Original-Tegra Tunnel
+  - name: All - UrlTest
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - Original-Tegra Tunnel
+  - name: All - Fallback
+    type: fallback
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - Original-Tegra Tunnel
+  - name: All - LoadBalance(ch)
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - Original-Tegra Tunnel
+  - name: All - LoadBalance(rr)
+    type: load-balance
+    strategy: round-robin
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - Original-Tegra Tunnel
+  - name: Original-Tegra Tunnel
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
       - A-Tegra Tunnel1 TLS-Tegra Tunnel
       - C-Tegra Tunnel1 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel2 TLS-Tegra Tunnel
-	    - C-Tegra Tunnel2 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel3 TLS-Tegra Tunnel
-	    - C-Tegra Tunnel3 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel4 TLS-Tegra Tunnel
-	    - C-Tegra Tunnel4 TLS-Tegra Tunnel
-      - A-Tegra Tunnel5 TLS-Tegra Tunnel
       - C-Tegra Tunnel5 TLS-Tegra Tunnel
-      - A-Tegra Tunnel6 TLS-Tegra Tunnel
-      - C-Tegra Tunnel6 TLS-Tegra Tunnel
-  - name: انتخاب-Tegra Tunnel
-    type: select
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - A-Tegra Tunnel1 TLS-Tegra Tunnel
-      - C-Tegra Tunnel1 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel2 TLS-Tegra Tunnel
-	    - C-Tegra Tunnel2 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel3 TLS-Tegra Tunnel
-	    - C-Tegra Tunnel3 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel4 TLS-Tegra Tunnel
-	    - C-Tegra Tunnel4 TLS-Tegra Tunnel
       - A-Tegra Tunnel5 TLS-Tegra Tunnel
-      - C-Tegra Tunnel5 TLS-Tegra Tunnel
+      - C-Tegra Tunnel4 TLS-Tegra Tunnel
       - A-Tegra Tunnel6 TLS-Tegra Tunnel
+      - C-Tegra Tunnel3 TLS-Tegra Tunnel
+      - C-Tegra Tunnel2 TLS-Tegra Tunnel
+      - A-Tegra Tunnel3 TLS-Tegra Tunnel
+      - A-Tegra Tunnel4 TLS-Tegra Tunnel
+      - A-Tegra Tunnel2 TLS-Tegra Tunnel
       - C-Tegra Tunnel6 TLS-Tegra Tunnel
 rules:
   - GEOIP,IR,DIRECT
