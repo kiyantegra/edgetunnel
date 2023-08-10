@@ -17,22 +17,9 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: A-Tegra Tunnel1 TLS-Tegra Tunnel
+  - name: C-Tegra Tunnel3 TLS-Tegra Tunnel
     type: vless
-    server: 203.28.8.173
-    port: 443
-    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
-    tls: true
-    servername: gt.rtx.e2.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: gt.rtx.e2.kiyan.online
-    client-fingerprint: chrome
-  - name: C-Tegra Tunnel1 TLS-Tegra Tunnel
-    type: vless
-    server: 203.28.8.173
+    server: 66.81.247.133
     port: 443
     uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
     tls: true
@@ -43,22 +30,9 @@ proxies:
       headers:
         host: amd.afm.e2.mkjhuhd.site
     client-fingerprint: chrome
-  - name: C-Tegra Tunnel5 TLS-Tegra Tunnel
+  - name: A-Tegra Tunnel2 TLS-Tegra Tunnel
     type: vless
-    server: 185.18.250.111
-    port: 443
-    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
-    tls: true
-    servername: amd.afm.e2.mkjhuhd.site
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: amd.afm.e2.mkjhuhd.site
-    client-fingerprint: chrome
-  - name: A-Tegra Tunnel5 TLS-Tegra Tunnel
-    type: vless
-    server: 185.18.250.111
+    server: 203.28.8.23
     port: 443
     uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
     tls: true
@@ -82,48 +56,9 @@ proxies:
       headers:
         host: amd.afm.e2.mkjhuhd.site
     client-fingerprint: chrome
-  - name: A-Tegra Tunnel6 TLS-Tegra Tunnel
+  - name: A-Tegra Tunnel1 TLS-Tegra Tunnel
     type: vless
-    server: 154.84.175.82
-    port: 443
-    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
-    tls: true
-    servername: gt.rtx.e2.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: gt.rtx.e2.kiyan.online
-    client-fingerprint: chrome
-  - name: C-Tegra Tunnel3 TLS-Tegra Tunnel
-    type: vless
-    server: 66.81.247.133
-    port: 443
-    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
-    tls: true
-    servername: amd.afm.e2.mkjhuhd.site
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: amd.afm.e2.mkjhuhd.site
-    client-fingerprint: chrome
-  - name: C-Tegra Tunnel2 TLS-Tegra Tunnel
-    type: vless
-    server: 203.28.8.23
-    port: 443
-    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
-    tls: true
-    servername: amd.afm.e2.mkjhuhd.site
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: amd.afm.e2.mkjhuhd.site
-    client-fingerprint: chrome
-  - name: A-Tegra Tunnel3 TLS-Tegra Tunnel
-    type: vless
-    server: 66.81.247.133
+    server: 203.28.8.173
     port: 443
     uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
     tls: true
@@ -147,9 +82,9 @@ proxies:
       headers:
         host: gt.rtx.e2.kiyan.online
     client-fingerprint: chrome
-  - name: A-Tegra Tunnel2 TLS-Tegra Tunnel
+  - name: A-Tegra Tunnel3 TLS-Tegra Tunnel
     type: vless
-    server: 203.28.8.23
+    server: 66.81.247.133
     port: 443
     uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
     tls: true
@@ -159,6 +94,32 @@ proxies:
       path: /?ed=2048
       headers:
         host: gt.rtx.e2.kiyan.online
+    client-fingerprint: chrome
+  - name: C-Tegra Tunnel5 TLS-Tegra Tunnel
+    type: vless
+    server: 185.18.250.111
+    port: 443
+    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
+    tls: true
+    servername: amd.afm.e2.mkjhuhd.site
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: amd.afm.e2.mkjhuhd.site
+    client-fingerprint: chrome
+  - name: C-Tegra Tunnel2 TLS-Tegra Tunnel
+    type: vless
+    server: 203.28.8.23
+    port: 443
+    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
+    tls: true
+    servername: amd.afm.e2.mkjhuhd.site
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: amd.afm.e2.mkjhuhd.site
     client-fingerprint: chrome
   - name: C-Tegra Tunnel6 TLS-Tegra Tunnel
     type: vless
@@ -173,46 +134,85 @@ proxies:
       headers:
         host: amd.afm.e2.mkjhuhd.site
     client-fingerprint: chrome
+  - name: A-Tegra Tunnel6 TLS-Tegra Tunnel
+    type: vless
+    server: 154.84.175.82
+    port: 443
+    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
+    tls: true
+    servername: gt.rtx.e2.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: gt.rtx.e2.kiyan.online
+    client-fingerprint: chrome
+  - name: C-Tegra Tunnel1 TLS-Tegra Tunnel
+    type: vless
+    server: 203.28.8.173
+    port: 443
+    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
+    tls: true
+    servername: amd.afm.e2.mkjhuhd.site
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: amd.afm.e2.mkjhuhd.site
+    client-fingerprint: chrome
+  - name: A-Tegra Tunnel5 TLS-Tegra Tunnel
+    type: vless
+    server: 185.18.250.111
+    port: 443
+    uuid: bd418edb-1a56-44b9-b317-9ec4a711931d
+    tls: true
+    servername: gt.rtx.e2.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: gt.rtx.e2.kiyan.online
+    client-fingerprint: chrome
 proxy-groups:
   - name: All
     type: select
     proxies:
-      - تست پینگ-Tegra Tunnel
-      - انتخاب-Tegra Tunnel
-  - name: تست پینگ-Tegra Tunnel
+      - url-Tegra Tunnel
+      - selec-Tegra Tunnel
+  - name: url-Tegra Tunnel
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
+      - C-Tegra Tunnel3 TLS-Tegra Tunnel
+      - A-Tegra Tunnel2 TLS-Tegra Tunnel
+      - C-Tegra Tunnel4 TLS-Tegra Tunnel
       - A-Tegra Tunnel1 TLS-Tegra Tunnel
-      - C-Tegra Tunnel1 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel2 TLS-Tegra Tunnel
-  	  - C-Tegra Tunnel2 TLS-Tegra Tunnel
-  	  - A-Tegra Tunnel3 TLS-Tegra Tunnel
-  	  - C-Tegra Tunnel3 TLS-Tegra Tunnel
-  	  - A-Tegra Tunnel4 TLS-Tegra Tunnel
-  	  - C-Tegra Tunnel4 TLS-Tegra Tunnel
-      - A-Tegra Tunnel5 TLS-Tegra Tunnel
+      - A-Tegra Tunnel4 TLS-Tegra Tunnel
+      - A-Tegra Tunnel3 TLS-Tegra Tunnel
       - C-Tegra Tunnel5 TLS-Tegra Tunnel
-      - A-Tegra Tunnel6 TLS-Tegra Tunnel
+      - C-Tegra Tunnel2 TLS-Tegra Tunnel
       - C-Tegra Tunnel6 TLS-Tegra Tunnel
-  - name: انتخاب-Tegra Tunnel
+      - A-Tegra Tunnel6 TLS-Tegra Tunnel
+      - C-Tegra Tunnel1 TLS-Tegra Tunnel
+      - A-Tegra Tunnel5 TLS-Tegra Tunnel
+  - name: selec-Tegra Tunnel
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
+      - C-Tegra Tunnel3 TLS-Tegra Tunnel
+      - A-Tegra Tunnel2 TLS-Tegra Tunnel
+      - C-Tegra Tunnel4 TLS-Tegra Tunnel
       - A-Tegra Tunnel1 TLS-Tegra Tunnel
-      - C-Tegra Tunnel1 TLS-Tegra Tunnel
-	    - A-Tegra Tunnel2 TLS-Tegra Tunnel
-  	  - C-Tegra Tunnel2 TLS-Tegra Tunnel
-  	  - A-Tegra Tunnel3 TLS-Tegra Tunnel
-  	  - C-Tegra Tunnel3 TLS-Tegra Tunnel
-  	  - A-Tegra Tunnel4 TLS-Tegra Tunnel
-  	  - C-Tegra Tunnel4 TLS-Tegra Tunnel
-      - A-Tegra Tunnel5 TLS-Tegra Tunnel
+      - A-Tegra Tunnel4 TLS-Tegra Tunnel
+      - A-Tegra Tunnel3 TLS-Tegra Tunnel
       - C-Tegra Tunnel5 TLS-Tegra Tunnel
-      - A-Tegra Tunnel6 TLS-Tegra Tunnel
+      - C-Tegra Tunnel2 TLS-Tegra Tunnel
       - C-Tegra Tunnel6 TLS-Tegra Tunnel
+      - A-Tegra Tunnel6 TLS-Tegra Tunnel
+      - C-Tegra Tunnel1 TLS-Tegra Tunnel
+      - A-Tegra Tunnel5 TLS-Tegra Tunnel
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
