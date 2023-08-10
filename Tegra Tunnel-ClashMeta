@@ -177,7 +177,6 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
       - تست پینگ-Tegra Tunnel
       - انتخاب-Tegra Tunnel
   - name: تست پینگ-Tegra Tunnel
