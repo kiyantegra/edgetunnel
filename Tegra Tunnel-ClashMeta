@@ -178,21 +178,9 @@ proxy-groups:
     type: select
     proxies:
       - All - UrlTest
-      - All - select
-      - Tegra Tunnel
-  - name: All - UrlTest
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Tegra Tunnel
-  - name: All - select
-    type: select
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Tegra Tunnel
-  - name: Tegra Tunnel
+      - تست پینگ-Tegra Tunnel
+      - انتخاب-Tegra Tunnel
+  - name: تست پینگ-Tegra Tunnel
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
@@ -209,7 +197,7 @@ proxy-groups:
       - C-Tegra Tunnel5 TLS-Tegra Tunnel
       - A-Tegra Tunnel6 TLS-Tegra Tunnel
       - C-Tegra Tunnel6 TLS-Tegra Tunnel
-  - name: Tegra Tunnel
+  - name: انتخاب-Tegra Tunnel
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
