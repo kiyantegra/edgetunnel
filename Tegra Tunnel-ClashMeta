@@ -186,12 +186,12 @@ proxy-groups:
     proxies:
       - A-Tegra Tunnel1 TLS-Tegra Tunnel
       - C-Tegra Tunnel1 TLS-Tegra Tunnel
-	  - A-Tegra Tunnel2 TLS-Tegra Tunnel
-	  - C-Tegra Tunnel2 TLS-Tegra Tunnel
-	  - A-Tegra Tunnel3 TLS-Tegra Tunnel
-	  - C-Tegra Tunnel3 TLS-Tegra Tunnel
-	  - A-Tegra Tunnel4 TLS-Tegra Tunnel
-	  - C-Tegra Tunnel4 TLS-Tegra Tunnel
+	    - A-Tegra Tunnel2 TLS-Tegra Tunnel
+	    - C-Tegra Tunnel2 TLS-Tegra Tunnel
+	    - A-Tegra Tunnel3 TLS-Tegra Tunnel
+	    - C-Tegra Tunnel3 TLS-Tegra Tunnel
+	    - A-Tegra Tunnel4 TLS-Tegra Tunnel
+	    - C-Tegra Tunnel4 TLS-Tegra Tunnel
       - A-Tegra Tunnel5 TLS-Tegra Tunnel
       - C-Tegra Tunnel5 TLS-Tegra Tunnel
       - A-Tegra Tunnel6 TLS-Tegra Tunnel
@@ -203,12 +203,12 @@ proxy-groups:
     proxies:
       - A-Tegra Tunnel1 TLS-Tegra Tunnel
       - C-Tegra Tunnel1 TLS-Tegra Tunnel
-	  - A-Tegra Tunnel2 TLS-Tegra Tunnel
-	  - C-Tegra Tunnel2 TLS-Tegra Tunnel
-	  - A-Tegra Tunnel3 TLS-Tegra Tunnel
-	  - C-Tegra Tunnel3 TLS-Tegra Tunnel
-	  - A-Tegra Tunnel4 TLS-Tegra Tunnel
-	  - C-Tegra Tunnel4 TLS-Tegra Tunnel
+	    - A-Tegra Tunnel2 TLS-Tegra Tunnel
+	    - C-Tegra Tunnel2 TLS-Tegra Tunnel
+	    - A-Tegra Tunnel3 TLS-Tegra Tunnel
+	    - C-Tegra Tunnel3 TLS-Tegra Tunnel
+	    - A-Tegra Tunnel4 TLS-Tegra Tunnel
+	    - C-Tegra Tunnel4 TLS-Tegra Tunnel
       - A-Tegra Tunnel5 TLS-Tegra Tunnel
       - C-Tegra Tunnel5 TLS-Tegra Tunnel
       - A-Tegra Tunnel6 TLS-Tegra Tunnel
