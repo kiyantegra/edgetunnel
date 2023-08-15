@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: Amsterdam-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 45.87.175.9
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -34,7 +34,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Amsterdam-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.23
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -49,7 +49,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Dusseldorf-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.173
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -64,7 +64,7 @@ proxies:
         host: Dusseldorf.bobbykotick.rip
   - name: Amsterdam-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.173
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -79,7 +79,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Kansas-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.173
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -94,7 +94,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Lille-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 45.87.175.9
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -109,7 +109,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Lille-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.23
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -124,7 +124,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Dusseldorf-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 66.81.247.133
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -139,7 +139,7 @@ proxies:
         host: Dusseldorf.bobbykotick.rip
   - name: Lille-1(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.173
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -154,7 +154,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Dusseldorf-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.23
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -169,7 +169,7 @@ proxies:
         host: Dusseldorf.bobbykotick.rip
   - name: Amsterdam-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 66.81.247.133
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -184,7 +184,7 @@ proxies:
         host: Amsterdam.bobbykotick.rip
   - name: Kansas-2(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 203.28.8.23
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -199,7 +199,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Kansas-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 66.81.247.133
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -214,7 +214,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Lille-3(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 66.81.247.133
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -229,7 +229,7 @@ proxies:
         host: Lille.bobbykotick.rip
   - name: Kansas-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 45.87.175.9
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -244,7 +244,7 @@ proxies:
         host: Kansas.bobbykotick.rip
   - name: Dusseldorf-4(سرعت نامحدود)- سرعت نامحدود
     type: vmess
-    server: 45.87.175.9
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -259,7 +259,7 @@ proxies:
         host: Dusseldorf.bobbykotick.rip
   - name: C-Amsterdam_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -274,7 +274,7 @@ proxies:
         host: v2ray.kiyanultraspeed.workers.dev
   - name: C-Dusseldorf_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -289,7 +289,7 @@ proxies:
         host: v2ray.kiyanultraspeed.workers.dev
   - name: A-Kansas_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -304,7 +304,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Lille_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -319,7 +319,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: B-Amsterdam_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -334,7 +334,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: C-Lille_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -349,7 +349,7 @@ proxies:
         host: v2ray.kiyanultraspeed.workers.dev
   - name: A-Dusseldorf_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -364,7 +364,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: A-Amsterdam_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -379,7 +379,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Kansas_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -394,7 +394,7 @@ proxies:
         host: v2ray.doostankiyan.workers.dev
   - name: C-Kansas_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -409,7 +409,7 @@ proxies:
         host: v2ray.kiyanultraspeed.workers.dev
   - name: A-Lille_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
@@ -424,7 +424,7 @@ proxies:
         host: mci.kiyandoostan1245.workers.dev
   - name: B-Dusseldorf_(سرعت محدود)-سرعت محدود
     type: vmess
-    server: 50.7.85.219
+    server: 11
     port: 80
     cipher: auto
     uuid: EACA9FBE-573D-410C-9B29-727B1950A3C1
